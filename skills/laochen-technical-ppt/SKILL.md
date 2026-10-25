@@ -52,4 +52,6 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 4. **在原工具中制作。** 复用合适模板页及原生对象，按真实字体和尺寸安排正文、坐标与标注，解决拥挤后再考虑缩字号。按 [原生动态规则](references/implementation-and-checks.md#progressive-explanation-and-animation) 和 [效果选择](references/implementation-and-checks.md#choose-the-effect-from-the-explanation) 实现分镜，保留约定页数。工具限制只暂停受影响部分；保留可用成果并说明具体限制，不静默更换交付形式。
 5. **保存并交付。** 按本次范围完成最小制作核对，提供一个权威最新版及直接可用路径，简述实际完成内容与影响使用的问题。审阅请求另按 [检查边界](references/implementation-and-checks.md#when-to-use-checks) 报告，区分结构核对、实际播放和排练。
 
+素材网站可按 [适用场景、格式与使用条件](references/asset-sources.md#additional-asset-libraries) 选读，仅调用本页需要的入口。
+
 仅在需要具体示范时读取 [产品与结构动作](references/worked-examples.md#product-introduction-with-editable-motion)、[操作培训](references/worked-examples.md#procedure-training-with-native-interface-states)、[数据比较](references/worked-examples.md#comparison-with-supplied-data) 或 [方法讲解](references/worked-examples.md#complete-one-slide-rewrite)。示例均标明教学设定，按关系迁移其做法，使用本次来源重新确定事实、视觉与分镜。Skill 自身有实质修订时可按 [跨场景验证](references/worked-examples.md#skill-revision-checks) 检验行为；这不增加每份 PPT 的审阅步骤。

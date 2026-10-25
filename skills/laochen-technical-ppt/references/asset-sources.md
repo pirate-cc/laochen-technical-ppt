@@ -2,7 +2,7 @@
 
 Use this reference to choose and obtain visuals that explain the page's subject after inspecting the supplied deck, project files, and relevant examples. Follow the [task scope](../SKILL.md#task-scope): a local replacement starts from its supplied asset and existing visual role; a review inspects and reports without downloading replacements or changing the deck unless requested. Reuse suitable supplied/project material directly. For new external assets, website search and original-resource inspection are the primary route; choose websites for the current subject rather than limiting discovery to the list below. Connected libraries and custom generation are useful supplements. Native relationships and data charts should still be drawn from their sources when editability or accuracy requires it; do not search for a stock picture to replace them.
 
-Read as needed: [scene to material](#scene-to-material), [local and connected reuse](#reuse-local-and-connected-material), [source discovery](#choose-sources-by-purpose), [search and inspection](#search-and-inspect), [generation](#generate-assets-for-the-slide), and [provenance](#license-and-provenance-check).
+Read as needed: [scene to material](#scene-to-material), [local and connected reuse](#reuse-local-and-connected-material), [source discovery](#choose-sources-by-purpose), [eight additional website libraries](#additional-asset-libraries), [search and inspection](#search-and-inspect), [generation](#generate-assets-for-the-slide), and [provenance](#license-and-provenance-check).
 
 ## Scene to material
 
@@ -97,6 +97,25 @@ Use these only when their content fits the need. They illustrate source types, n
 | Icons | [Lucide](https://lucide.dev/icons/) or [Tabler Icons](https://tabler.io/icons). | Select a coherent family and supported format; retain required notices. An SVG icon is not a component-editable technical diagram. |
 | Plot, diagram, or editable asset source | [Matplotlib's gallery](https://matplotlib.org/stable/gallery/index.html), the active tool's official examples, and original repositories on [GitHub](https://github.com/). | Inspect the actual file, data/code, README, and relevant license/NOTICE. Repository availability does not license every image or font. Keep the selected version and necessary dependencies. |
 | Presentation composition | Relevant [author-provided technical-presentation templates](https://www.craftscicom.org/ae_templates.html), or the examples below when a concrete reference gap remains. | Adapt hierarchy and evidence placement to the agreed visual direction; do not impose a fixed headline or page structure. |
+
+### Additional asset libraries
+
+根据本页场景与素材缺口选用下列入口，与前表及已有项目材料互补；不逐站遍历，也不限制继续发现更合适的原始来源。格式和使用条件依据官方说明整理于 2026-10-25，具体条目的可下载格式、账户权限和授权以使用时的原页面为准。Skill 只收录入口与方法，不附带第三方素材包。
+
+| 网站与入口 | 适用场景与检索方向 | 常见素材格式 | 使用条件与接入方式 |
+| --- | --- | --- | --- |
+| [SVG Repo](https://www.svgrepo.com/) | 设备、交通、办公、人物和概念标识；按具体对象名检索，再按风格选择同一系列。 | SVG 矢量图标、插图。 | 逐条查看 [许可](https://www.svgrepo.com/page/licensing)，不能把全站视为 CC0 或免署名；保留所选许可要求的署名/声明。先检查内部路径、分组和目标工具的导入结果，再判断能否拆成所需对象。 |
+| [Storyset](https://storyset.com/) | 教学、业务、服务和技术场景插画；先找解释所需概念，再选统一风格、配色、背景和图层。 | SVG、PNG；动画可导出 HTML、GIF、MP4。 | 免费插画需署名，免署名需有效的相应授权，见 [格式与使用说明](https://storyset.com/faqs)。需要拆分时保留 SVG 及所需图层；GIF/MP4 只作为媒体或动作参考，不当作已实现的 PPT 原生动画。 |
+| [PresentationGO](https://www.presentationgo.com/) | 流程、时间轴、关系、计划、地图等 PPT 组件，尤其适合内部汇报和教学；按关系类型而非固定卡片数选取。 | PPTX、PPT、POTX 或 Google Slides，按条目提供。 | 下载后核对原生对象与图表数据，适配当前模板。公开演示需可见署名；修改后的可编辑模板不得公开再分发，不能把下载文件打包进 Skill，见 [使用条款](https://www.presentationgo.com/terms-conditions/)。若交付需公开分发可编辑稿，选择许可兼容的其他素材。 |
+| [LottieFiles](https://lottiefiles.com/) | 状态变化、操作反馈、人物动作和流程小动画；用“对象 + 动作/状态”寻找相关片段。 | Lottie JSON、dotLottie（.lottie）；GIF、MP4 等导出格式以当前条目和账户可用项为准。 | 区分免费与 Premium；逐项检查 [动画许可](https://help.lottiefiles.com/animation-licensing-basics-) 和 [下载条件](https://help.lottiefiles.com/discovering-downloading-and-uploading-animations)。不将动画作为独立素材包再分发。Lottie 文件不自动变成 PPT 效果；需独立编辑、点击控制时按关系制作原生对象与动画。 |
+| [NASA SVS](https://svs.gsfc.nasa.gov/) | 地球、气候、天文和航天的机制讲解与科学可视化；按主题、任务或数据对象检索。 | 条目可能提供 MP4、静态图和逐帧图像集；以该页 Download 区为准。 | 查看完整 credits、数据来源和图像身份，区分观测、模拟与示意。SVS 内容通常为公共领域，但须核对例外、第三方内容和 [NASA 媒体使用要求](https://www.nasa.gov/nasa-brand-center/images-and-media/)，保留来源并避免暗示背书。按实际需要取视频、关键帧或构图参考，媒体内部对象不视为可编辑。 |
+| [Smithsonian Open Access](https://www.si.edu/openaccess) | 文物、历史、艺术、自然科学和科学仪器的实物教学；按对象、年代、作者或馆藏标识检索。 | 二维 JPG、可用时的 TIFF；三维 glTF、GLB、OBJ 等，按条目提供。 | 优先选明确标有 CC0 的条目；未标 CC0 的项目适用其具体条件，见 [官方 FAQ](https://www.si.edu/openaccess/faq)。保留馆藏身份与来源。三维资源可从 [官方开放馆藏入口](https://3d.si.edu/collections/openaccesshighlights) 定位；必要时转为合适视图，不能把渲染图称为原物照片。 |
+| [Our World in Data](https://ourworldindata.org/) | 人口、能源、环境、健康等公共议题的背景、趋势与比较；按指标、国家/地区和时期查找。 | 图表 PNG、SVG；数据 CSV、元数据 JSON，可按 [官方说明](https://ourworldindata.org/faqs) 获取。 | OWID 自制图表/数据通常按 CC BY 使用，第三方材料服从原提供者条件；保留 OWID 与原数据来源。需要可编辑图表时使用实际数据，保留定义、单位、时间范围与处理口径，不把背景统计当作本项目实验结果。 |
+| [Poly Haven](https://polyhaven.com/) | 建筑、产品、室内外空间和材料展示；按对象、材质或环境检索，仅在三维表达确有作用时使用。 | 三维 BLEND、glTF、FBX 等；材质 JPG/PNG/EXR；环境 HDR/EXR，实际选项随条目而异。 | 素材按 [CC0](https://polyhaven.com/license) 提供；网站/API 使用仍遵守各自条款。保留必要材质与贴图依赖，先确认现有工具支持的格式，再选择模型或渲染视图；不因采用该来源而默认安装三维软件，也不把通用模型当作某款真实产品的准确结构。 |
+
+选用时将对象名、动作或状态、视角/格式要求代入 [检索方法](#search-and-inspect)，查看实际条目与原件后再定稿。目录只提供候选入口，不能依据名称就认定图像合适或许可已经核验；遇到访问限制，尝试适当的官方入口或其他来源，不把无法查看的候选标为已选定。
+
+格式选择服从 [可编辑性与动态要求](implementation-and-checks.md#template-and-object-editing)：SVG 的矢量性质不保证逐部件编辑，PPTX 后缀不保证数据与效果完整，三维模型也不等于可编辑机械结构。GIF/MP4 和网页动画可以承担约定的媒体说明，要求的原生对象动作仍按 [效果关系](implementation-and-checks.md#choose-the-effect-from-the-explanation) 实现。只保存实际使用的原件、必要图层/数据和来源记录。
 
 ## Content methods and complete-talk examples
 
