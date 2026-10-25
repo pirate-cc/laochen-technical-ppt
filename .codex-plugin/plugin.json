@@ -1,18 +1,18 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.16",
-  "description": "Create, revise, or review Chinese presentations with natural copy, subject-matched visuals, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
+  "version": "0.1.17",
+  "description": "Create, revise, or review Chinese presentations with scene-based source discovery, natural copy, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
   "author": {
     "name": "老陈"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "老陈技术汇报PPT",
-    "shortDescription": "自然中文、主题视觉、逐页原生动态的可编辑PPT。",
-    "longDescription": "依据材料与模板制作自然中文和主题视觉，按页面用途复用已有文档与已连接素材、检索专业来源或生图；讲演稿默认逐页原生动态并保持可编辑；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成必要制作核对后直接交付用户自行检查。",
+    "shortDescription": "按场景选材、自然中文、逐页原生动态的可编辑PPT。",
+    "longDescription": "依据题材、听众与用途选择讲解、素材和动态，复用已有材料，新增素材以网站检索为主并按场景发现适当原始来源，已连接素材库与定制插画按需补充，按关系确定可编辑图层并共同修订图文；沿用模板或建立一致视觉方向，讲演稿默认逐页原生动态；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成必要制作核对后直接交付用户自行检查。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "请使用老陈技术汇报PPT，沿用模板制作自然中文、主题视觉和逐页原生动态的可编辑讲演 PPT，完成后交给我自行检查。"
+    "defaultPrompt": "请使用老陈技术汇报PPT，根据本次场景选材，有模板时沿用，制作自然中文、主题视觉和逐页原生动态的可编辑讲演 PPT，完成后交给我自行检查。"
   }
 }
