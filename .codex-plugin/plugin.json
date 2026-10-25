@@ -1,6 +1,6 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Create, revise, or review Chinese presentations with natural copy, subject-matched visuals, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
   "author": {
     "name": "老陈"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "老陈技术汇报PPT",
     "shortDescription": "自然中文、主题视觉、逐页原生动态的可编辑PPT。",
-    "longDescription": "依据材料与模板制作自然中文和主题视觉，讲演稿默认逐页原生动态并保持可编辑；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成必要制作核对后直接交付用户自行检查。",
+    "longDescription": "依据材料与模板制作自然中文和主题视觉，按页面用途复用已有文档与已连接素材、检索专业来源或生图；讲演稿默认逐页原生动态并保持可编辑；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成必要制作核对后直接交付用户自行检查。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],

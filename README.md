@@ -2,7 +2,7 @@
 
 面向中文技术汇报、科研组会、教学讲解与项目报告的 Codex Skill。依据已有材料把主体讲清楚，沿用模板，交付文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.15 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.16 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering technical storytelling, template preservation, editable objects, and native slide animation.
 
@@ -14,6 +14,15 @@ English: A reusable Chinese presentation skill for Codex, covering technical sto
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.16 素材寻找与复用
+
+- 从既有 PPT、Word、PDF、表格、矢量与设计文件中定位原图、数据和可复用对象，保留原文件与页码、图号或对象关系。
+- 按页面用途选择专业来源，补充地球物理教育资源、硬件应用与参考设计、机构数字馆藏、图标及带源码的科研图表示例。
+- 配合网页与图片搜索、对象别名和定向限定词寻找原件；工具可用时按其实际能力检索已连接素材库，选到合适材料即可开始制作。
+- 沿用项目已有素材记录，保留来源、使用条件、可编辑程度和所需图层，减少重复下载与重复生成。
+
+详细途径见 [素材来源参考](skills/laochen-technical-ppt/references/asset-sources.md)。本版继续保留自然中文成稿、讲演版逐页原生动态、原生可编辑要求，以及完成必要制作核对后直接交付用户自行检查的方式。
 
 ## 安装到 Codex
 
