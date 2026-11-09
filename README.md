@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途选择讲解、素材与动态；沿用模板或建立一致的视觉方向，交付文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.20 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.21 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,12 @@ English: A reusable Chinese presentation skill for Codex, covering scene-based s
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.21 按设计问题选择参考
+
+- 在 [参考选择表](skills/laochen-technical-ppt/references/asset-sources.md#content-methods-and-complete-talk-examples) 中补入 Deck.gallery、Data Viz Project、Information is Beautiful Awards 和 Motionimo，分别用于整套版式、图形选型、信息叙事与动态分镜；Curated.design 和 Page Flows 作为视觉与软件培训的按需补充。
+- 扩充现有参考转化方法：查看相关页及相邻页面、区分讲演与阅读用途、按本次信息关系选图、把长网页或交互作品转成页面，并明确运动对象的起止状态和固定参照。
+- 保留主规则和已有来源，复用现有可编辑性、原生动态与效果检查要求；材料足够即停止检索，访问受限时使用合适的可访问来源，不新增默认审批、付费或安装要求。
 
 ## 0.1.20 设计参考与转化
 
