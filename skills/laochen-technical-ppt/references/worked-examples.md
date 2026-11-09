@@ -18,7 +18,7 @@
 | “更新这个云端演示里的两页。” | 在已有目标及授权范围内编辑，保留无关页面；不另造本地或其他云端副本。 |
 | “只给一张主题背景和提示词。” | 仅交所需图片和提示词；素材的题材、构图与风格由本次要求决定。 |
 
-这些是范围判断示例。具体检查与交付统一使用 [制作边界](implementation-and-checks.md#when-to-use-checks) 和 [最小制作核对](implementation-and-checks.md#minimum-production-confirmation)，不由案例新增审批、渲染、播放或排练要求。
+这些是范围判断示例。具体检查与交付统一使用 [制作边界](implementation-and-checks.md#when-to-use-checks) 和 [最小制作核对](implementation-and-checks.md#minimum-production-confirmation)，不由案例新增审批或扩大检查范围。
 
 ## Story and pacing
 
@@ -160,11 +160,11 @@
 
 ## Accurate delivery wording
 
-常规制作可写“已完成可编辑 PPT，已写入原生点击动画”，并给出实际文件路径。仅对实际写入的功能作此说明，不从脚本完成推断播放通过。用户要求播放检查而未能完成时，明确报告受影响的检查与恢复条件。交付边界详见 [交付规则](implementation-and-checks.md#delivery-and-optional-review)。
+常规制作可写“已完成可编辑 PPT，已写入原生点击动画”，并给出实际文件路径。仅对实际写入的功能作此说明，不从脚本完成推断播放通过。适用的必要播放检查未能完成时，明确报告受影响内容、实际检查层级与恢复条件。交付边界详见 [交付规则](implementation-and-checks.md#delivery-and-optional-review)。
 
 ## Skill revision checks
 
-本节用于有实质影响的 Skill 修订，按改动选择少量任务检查行为；它不要求每份 PPT 都新增测试或播放。主文件格式、链接和安装一致性检查只能证明相应结构，不能证明跨场景选材和表达质量。
+本节用于有实质影响的 Skill 修订，按改动选择少量任务检查行为；它不要求每份 PPT 都新增跨场景测试；成稿的必要渲染与动态效果检查仍按实际改动执行。主文件格式、链接和安装一致性检查只能证明相应结构，不能证明跨场景选材和表达质量。
 
 - 选择不同的实际任务目的，例如陌生题材的素材与讲解、操作培训、基于给定数据的阅读稿，以及既有 PPT 的局部修改；题材不必来自本文件。
 - 给独立执行者真实请求、候选 Skill 和完成任务所需的最少原材料，不提前给预期答案、指定来源或本轮怀疑点。仅文案/素材任务检查其实际交付；文件编辑任务用隔离副本。

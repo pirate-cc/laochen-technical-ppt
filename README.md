@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途选择讲解、素材与动态；沿用模板或建立一致的视觉方向，交付文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.18 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.19 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -15,13 +15,19 @@ English: A reusable Chinese presentation skill for Codex, covering scene-based s
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
 
+## 0.1.19 按修改范围核验效果
+
+- 新增或修改版式后查看受影响页面的实际渲染；新增或修改动画、交互或播放顺序后核对实际效果。
+- 局部修改不扩大为全稿回归，完整排练与无障碍专项按任务需要执行，不增加默认审批节点。
+- 必要效果检查受阻时报告具体限制与实际检查层级，保留可用成果，不以对象写入代替效果验证。
+
 ## 0.1.18 素材网站索引
 
 - 新增 SVG Repo、Storyset、PresentationGO、LottieFiles、NASA SVS、Smithsonian Open Access、Our World in Data 和 Poly Haven 八个入口，按适用场景、素材格式与使用条件整理。
 - 从矢量对象、场景插画、PPT 组件、动态参考、科学可视化、馆藏实物、公共数据和三维素材中按需选择；保留已有来源和复用途径，网站名单不限制继续发现合适原件。
 - 明确署名、条目许可、公开再分发和账户条件，区分矢量/三维源文件、媒体动画与 PPT 原生对象，不把下载格式视为可编辑性或动画实现的保证。
 
-具体入口见 [素材网站索引](skills/laochen-technical-ppt/references/asset-sources.md#additional-asset-libraries)。本版沿用按场景选材、图文共同修订和无模板时建立一致视觉方向的流程，保留自然中文成稿、讲演版逐页原生动态、原生可编辑要求，以及完成必要制作核对后直接交付用户自行检查的方式。Skill 只提供链接和使用方法，不打包第三方素材。
+具体入口见 [素材网站索引](skills/laochen-technical-ppt/references/asset-sources.md#additional-asset-libraries)。本版沿用按场景选材、图文共同修订和无模板时建立一致视觉方向的流程，保留自然中文成稿、讲演版逐页原生动态、原生可编辑要求，以及按本次用途和修改范围完成必要制作核对后直接交付的方式。Skill 只提供链接和使用方法，不打包第三方素材。
 
 ## 安装到 Codex
 

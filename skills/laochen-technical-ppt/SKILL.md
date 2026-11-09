@@ -5,7 +5,7 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 
 # 老陈技术汇报 PPT
 
-根据题材、听众和用途选择讲解、素材与动态，把主体讲清楚。沿用已有模板；没有模板时按场景建立一致的视觉语言。交付文字可直接使用的可编辑 PPT，讲演稿默认逐页有原生动态，完成制作后直接交给用户自行检查。
+根据题材、听众和用途选择讲解、素材与动态，把主体讲清楚。沿用已有模板；没有模板时按场景建立一致的视觉语言。交付文字可直接使用的可编辑 PPT，讲演稿默认逐页有原生动态，完成与本次用途和修改范围相称的检查后直接交付。
 
 ## Task scope
 
@@ -28,11 +28,11 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 - **保留所需可编辑性。** 文字、表格、图表数据和技术图的组件、标签、连接保持约定的原生编辑粒度；背景照片或插画可以是图像。局部修改保留无关内容、格式和动画，不用整页图片、视频或重建近似稿静默替代要求的原生对象。
 - **根据场景寻找和复用素材。** 先明确本页对象或关系、真实性、编辑粒度与动态所需图层。用户提供或项目已有的合适材料直接复用；需要新增素材时，以网站检索为主，按当前题材寻找原作者、资料持有者和适当素材网站，不局限于示例名单。已连接素材库按需补充；需要原生关系图或真实数据图时直接绘制，生图用于适合的定制插画。素材的内容、构图和质量须支持本页解释，替换时保留必要关系。按 [场景选材](references/asset-sources.md#scene-to-material)、[已有材料复用](references/asset-sources.md#reuse-local-and-connected-material) 与 [来源发现](references/asset-sources.md#choose-sources-by-purpose) 执行，记录来源或生成提示词，选够即停。
 - **讲演版默认逐页有原生动态。** 在上述制作范围内，封面、过渡页、简单结论和结束页同样安排适度的对象入场或强调；内容页围绕实际讲解对象展开，复杂图让标识、连接和说明同步出现，需要时表现路径、运动、局部放大或真实状态切换。简单页可用一次协调入场，点击次数由内容决定；普通整页转场不替代页内动态，标签淡入不替代机制运动。
-- **做完直接交付用户自行检查。** 完成文案、图文对应、实际动画写入和 [最小制作核对](references/implementation-and-checks.md#minimum-production-confirmation)，处理本次制作与导出错误后交付。不增加大纲、样稿或分批审批；成稿渲染、截图、重开编辑试验、播放、无障碍审计、排练与回归仅在用户明确要求对应检查时执行。不声称未执行的检查通过，不例行列出省略项。
+- **完成必要检查后交付。** 完成文案、图文对应、实际对象与动画写入及 [最小制作核对](references/implementation-and-checks.md#minimum-production-confirmation)。新增或修改版式后查看受影响页面的实际渲染；新增或修改动画、交互或播放顺序后，在支持相应效果的实际环境中核对受影响内容。局部修改不扩大为全稿重做或无关回归。完整排练、无障碍专项审计等额外检查按任务需要执行。不增加默认大纲、样稿或分批审批；用户明确保留的审批或检查安排照常执行。必要效果核验受阻时，说明具体受影响内容和实际检查层级，交付可用部分，不把结构正确表述为效果已验证。
 
 ## Working with other skills
 
-本 Skill 负责场景判断、讲解、文案、主题视觉、动态及用户约定的交付方式。先按 [工作界面与工具选择](references/implementation-and-checks.md#choose-the-working-surface) 确定输出目标、模板状态和所需能力，再把这些已确定的约束传给 Presentations 或相应服务 Skill。基础 Skill 提供所选工具的接口、格式处理和必需导出检查；其未指定目标时的默认分支不重新决定已经明确的交付形式。联用不自动增加默认成稿渲染或审阅轮次，也不跳过必要文件检查。用户明确要求优先；本 Skill 不覆盖更高层指令或工具权限。
+本 Skill 负责场景判断、讲解、文案、主题视觉、动态及用户约定的交付方式。先按 [工作界面与工具选择](references/implementation-and-checks.md#choose-the-working-surface) 确定输出目标、模板状态和所需能力，再把这些已确定的约束传给 Presentations 或相应服务 Skill。基础 Skill 提供所选工具的接口、格式处理和必需导出检查；其未指定目标时的默认分支不重新决定已经明确的交付形式。联用按受影响范围完成必要文件、渲染和动态效果检查，不重复已完成的检查或增加无关审阅轮次。用户明确要求优先；本 Skill 不覆盖更高层指令或工具权限。
 
 选工具时确认原模板导入、原对象编辑、所需图表与动画的实际支持，按 [工作界面与工具选择](references/implementation-and-checks.md#choose-the-working-surface) 继续；不能靠更换工具或重建近似稿静默降低约定的可编辑性。
 
@@ -50,7 +50,7 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 2. **安排讲解并形成初稿。** 从观众目标和内容依赖决定顺序，写出本页要解释的具体对象或关系、文案初稿和来源；按需选择解释、操作、比较、叙事或决策方式，不套固定行业大纲。同步判断主视觉、需要独立编辑或运动的对象，以及素材缺口。
 3. **取得素材并共同定稿。** 复用合适现有材料，需要新增素材时主要从适合当前场景的网站寻找并查看原件，按需补充其他途径。依据实际可见内容与来源修订文案、构图和逐页分镜；必要时换素材或调整受影响的解释，见 [图文往返调整](references/research-explanation.md#copy-and-asset-iteration)。讲演版逐页说明入场、对象动作与保留上下文，优先按 [信息关系选择效果](references/implementation-and-checks.md#choose-the-effect-from-the-explanation)；简单页一句话即可。按依赖推进已明确的页面，不为一页缺图暂停其他页。
 4. **在原工具中制作。** 复用合适模板页及原生对象，按真实字体和尺寸安排正文、坐标与标注，解决拥挤后再考虑缩字号。按 [原生动态规则](references/implementation-and-checks.md#progressive-explanation-and-animation) 和 [效果选择](references/implementation-and-checks.md#choose-the-effect-from-the-explanation) 实现分镜，保留约定页数。工具限制只暂停受影响部分；保留可用成果并说明具体限制，不静默更换交付形式。
-5. **保存并交付。** 按本次范围完成最小制作核对，提供一个权威最新版及直接可用路径，简述实际完成内容与影响使用的问题。审阅请求另按 [检查边界](references/implementation-and-checks.md#when-to-use-checks) 报告，区分结构核对、实际播放和排练。
+5. **保存并交付。** 按本次范围完成最小制作核对及必要效果检查，提供一个权威最新版及直接可用路径，简述实际改动、已完成的验证与影响使用的问题。审阅请求另按 [检查边界](references/implementation-and-checks.md#when-to-use-checks) 报告，区分结构核对、实际播放和排练。
 
 素材网站可按 [适用场景、格式与使用条件](references/asset-sources.md#additional-asset-libraries) 选读，仅调用本页需要的入口。
 
