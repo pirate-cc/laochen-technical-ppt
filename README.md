@@ -1,10 +1,10 @@
 # 老陈技术汇报 PPT
 
-面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途选择讲解、素材与动态；沿用模板或建立一致的视觉方向，交付文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
+面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用模板或建立一致的视觉方向，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.21 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.22 · 作者：老陈 · [MIT License](LICENSE)**
 
-English: A reusable Chinese presentation skill for Codex, covering scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
+English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
 ## 能做什么
 
@@ -14,6 +14,16 @@ English: A reusable Chinese presentation skill for Codex, covering scene-based s
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.22 内容充分性与深入讲解
+
+- 将单页任务明确为一个需要完成的解释或论述，允许相关模型、公式、图表和证据同页组织；按实际做法、差异或判断依据检查内容，不以少字、卡片数或留白比例判断质量。
+- 修正介绍任务中过度限制已有结果与验证的表述，补入研究问题、方法、证据和结论的对应，以及研究现状归纳、实验/理论/仿真细节选择。
+- 明确多面板也可以构成一个主要结构，保留有用的技术解释、变量和文献归属；增加独立教学设定的多模型比较与实验平台页改写案例。
+- 将内容充分性并入原有制作核对和协作交接，检查必要知识在最终页面中仍然可见；补充数学符号语义、仿真结果图和问答材料的条件处理。
+- 保留可编辑性、讲演版逐页原生动态、模板与局部修改边界，以及必要渲染和播放检查；不新增固定字数、公式数量或审批步骤。
+
+本版的行为验证可分别检查文案、图文安排和分镜；这些检查不替代实际 PPT 的渲染、原生对象编辑和播放验证。
 
 ## 0.1.21 按设计问题选择参考
 

@@ -1,18 +1,18 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.21",
-  "description": "Create, revise, or review Chinese presentations with scene-based source discovery, natural copy, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
+  "version": "0.1.22",
+  "description": "Create, revise, or review Chinese presentations with substantive explanations, scene-based sources, natural copy, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
   "author": {
     "name": "老陈"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "老陈技术汇报PPT",
-    "shortDescription": "按场景选材、自然中文、逐页原生动态的可编辑PPT。",
-    "longDescription": "依据题材、听众与用途选择讲解、素材和动态，复用已有材料，新增素材以网站检索为主，按场景、格式和使用条件选择网站并继续发现适当原始来源，已连接素材库与定制插画按需补充，按关系确定可编辑图层并共同修订图文；沿用模板或建立一致视觉方向，讲演稿默认逐页原生动态；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成必要制作核对及受影响范围内的渲染与动态效果检查后直接交付。",
+    "shortDescription": "内容充实、讲解深入、逐页原生动态的可编辑PPT。",
+    "longDescription": "依据题材、听众与用途展开具体内容，用模型、操作、图表和证据完成解释，支持同页多对象比较并保留必要技术细节；复用已有材料，新增素材以网站检索为主，按关系确定可编辑图层并共同修订图文；沿用模板或建立一致视觉方向，讲演稿默认逐页原生动态；局部修改限定范围，审阅默认只报告，按独立工作量组合专项代理，完成内容充分性、原生对象及受影响范围内的渲染与动态效果检查后直接交付。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "请使用老陈技术汇报PPT，根据本次场景选材，有模板时沿用，制作自然中文、主题视觉和逐页原生动态的可编辑讲演 PPT，完成受影响范围内的必要渲染与动态效果检查后直接交付。"
+    "defaultPrompt": "请使用老陈技术汇报PPT，根据本次听众与材料把内容讲充分，有模板时沿用，制作自然中文、主题视觉和逐页原生动态的可编辑讲演 PPT，完成内容、渲染与动态效果核对后直接交付。"
   }
 }
