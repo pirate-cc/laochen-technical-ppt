@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用指定模板，新稿按场景选取成套模板并按需自主设计，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.23 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.24 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,13 @@ English: A reusable Chinese presentation skill for Codex, covering substantive e
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.24 自然具体的页面标题
+
+- 按页面实际内容选择主题短语、操作、问题或有据发现，技术介绍可直接命名具体对象与方面；避免将讲者提醒、口号和整段解释压成标题。
+- 增加 [标题判断](skills/laochen-technical-ppt/references/research-explanation.md#titles-and-cover-copy) 与 [改写案例](skills/laochen-technical-ppt/references/worked-examples.md#titles-from-page-content)，区分真实操作顺序与空泛句框，不机械禁词或统一全部句式。
+- 整理章节标签、页标题和图题的作用；在授权范围内减少重复，用户指定标题和局部修改范围继续保留。
+- 同步修订较长的内置示例标题，将具体步骤、数据解释和条件保留在正文；内容深度、模板选型、可编辑性与逐页原生动态要求不变。
 
 ## 0.1.23 比较论证、具体改稿与模板选型
 
