@@ -1,4 +1,4 @@
 interface:
   display_name: "老陈技术汇报PPT"
-  short_description: "按场景展开实质内容、深入讲解，自然中文与逐页原生动态，交付可编辑PPT"
-  default_prompt: "请使用 $laochen-technical-ppt，根据本次听众与材料把内容讲充分，有模板时沿用，制作自然中文、主题视觉和逐页原生动态的可编辑讲演 PPT，完成内容、渲染与动态效果核对后直接交付。"
+  short_description: "按场景选模板、深入讲解与清晰论证，逐页原生动态，交付可编辑PPT"
+  default_prompt: "请使用 $laochen-technical-ppt，沿用指定模板或按场景选型，依据本次听众与材料把内容讲充分、理清比较与论证，制作自然中文和逐页原生动态的可编辑讲演 PPT，完成内容、渲染与动态效果核对后直接交付。"

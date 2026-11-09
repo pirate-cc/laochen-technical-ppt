@@ -1,10 +1,10 @@
 # 老陈技术汇报 PPT
 
-面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用模板或建立一致的视觉方向，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
+面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用指定模板，新稿按场景选取成套模板并按需自主设计，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.22 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.23 · 作者：老陈 · [MIT License](LICENSE)**
 
-English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
+English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
 ## 能做什么
 
@@ -14,6 +14,16 @@ English: A reusable Chinese presentation skill for Codex, covering substantive e
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.23 比较论证、具体改稿与模板选型
+
+- 比较模型时辨明输出对象、输入与适用条件，区分可比较的结构与有数据支持的性能；贡献表达区分新增能力与实际收益。
+- 将结果型结论追到对应对象、工况、指标和证据，区分方法表现与研究问题的回答，保留部分达成和不确定性的实际含义。
+- 改稿先判断知识缺口、关系混杂或显示问题；用具体例子说明如何删重复、补必要条件，以及整理平台、流程、配置和日志。
+- 新增 [研究论证与改稿案例](skills/laochen-technical-ppt/references/research-and-revision-examples.md)：不同输出模型的一页比较、四页连续教学研究、复杂结果页分镜及按用途改写技术页。案例设定完整，原生对象与动态按讲解安排。
+- 新增 [模板选型参考](skills/laochen-technical-ppt/references/template-selection.md)，纳入 Slidesgo、SlidesCarnival、iSlide、优品 PPT、SlideModel 和 PresentationGO，区分成套模板与组件，检查代表内容页、可用格式和实际使用条件。新稿按场景选择，已有模板和局部修改沿用确认方向。
+- 增加可选 D 模板选型专项，主代理统一选型与交接；D 可与 A 并行，完成后释放名额再推进 B/C，四种角色不要求同时运行。C 或主代理保持唯一权威 PPTX 写入权。
+- 沿用可编辑性、逐页原生动态、局部修改及必要效果核验；问答准备按场景需要执行，不新增默认审批、页数或固定检查表。
 
 ## 0.1.22 内容充分性与深入讲解
 
