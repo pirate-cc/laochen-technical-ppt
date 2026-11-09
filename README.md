@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途选择讲解、素材与动态；沿用模板或建立一致的视觉方向，交付文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.19 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.20 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering scene-based sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,12 @@ English: A reusable Chinese presentation skill for Codex, covering scene-based s
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.20 设计参考与转化
+
+- 加入 [Recent](https://recent.design/) 作为构图、配色、图片处理与动态的参考入口，按当前视觉问题选读作品。
+- 补充 [参考转化方法](skills/laochen-technical-ppt/references/asset-sources.md#adapt-design-references)：提取视觉规律，适配中文与演示场景，制作所需原生对象，并入现有渲染和动态效果检查。
+- 保留模板、局部修改、内容证据、可编辑性与动态规则；不新增默认选型或审批环节，不打包第三方作品。
 
 ## 0.1.19 按修改范围核验效果
 

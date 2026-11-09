@@ -2,7 +2,7 @@
 
 Use this reference to choose and obtain visuals that explain the page's subject after inspecting the supplied deck, project files, and relevant examples. Follow the [task scope](../SKILL.md#task-scope): a local replacement starts from its supplied asset and existing visual role; a review inspects and reports without downloading replacements or changing the deck unless requested. Reuse suitable supplied/project material directly. For new external assets, website search and original-resource inspection are the primary route; choose websites for the current subject rather than limiting discovery to the list below. Connected libraries and custom generation are useful supplements. Native relationships and data charts should still be drawn from their sources when editability or accuracy requires it; do not search for a stock picture to replace them.
 
-Read as needed: [scene to material](#scene-to-material), [local and connected reuse](#reuse-local-and-connected-material), [source discovery](#choose-sources-by-purpose), [eight additional website libraries](#additional-asset-libraries), [search and inspection](#search-and-inspect), [generation](#generate-assets-for-the-slide), and [provenance](#license-and-provenance-check).
+Read as needed: [scene to material](#scene-to-material), [local and connected reuse](#reuse-local-and-connected-material), [source discovery](#choose-sources-by-purpose), [eight additional website libraries](#additional-asset-libraries), [design-reference adaptation](#adapt-design-references), [search and inspection](#search-and-inspect), [generation](#generate-assets-for-the-slide), and [provenance](#license-and-provenance-check).
 
 ## Scene to material
 
@@ -126,11 +126,21 @@ Use a relevant entry only for the current gap; do not reread every site for each
 | Research-story structure or audience purpose | [MIT Communication Lab: Structuring a Slide Presentation](https://mitcommlab.mit.edu/nse/commkit/structuring-a-slide-presentation/); [Duarte: How to write a great presentation](https://www.duarte.com/blog/how-to-write-a-great-presentation/) | Choose evidence and context for the audience's task. Planning from results does not require result-first delivery; persuasion techniques do not require every research talk to contain conflict or a call to action. |
 | Explaining a data relationship | [Storytelling with Data: Is your point clear?](https://www.storytellingwithdata.com/blog/is-your-point-clear) and its before/after visuals | Study how grouping, scales, emphasis, and words answer a question. Keep important subgroup differences when aggregation would hide them; adapt explanation to live or standalone use. |
 | Visual hierarchy within an existing template | [Presentation Zen: Contrast, Repetition, Alignment, Proximity](https://presentationzen.com/blog/design-fundamentals-contrast-repetition-alignment-proximity) | Use contrast, repeated elements, alignment, and spacing to express relationships. Simplification must preserve necessary technical explanation. |
+| Composition, color, image treatment, or motion inspiration | [Recent](https://recent.design/): curated branding, posters, interfaces, illustration, and motion references | Inspect relevant works and follow their creator/source links. Use the [adaptation method](#adapt-design-references) to translate visual choices into slides; the gallery is not a PPT template library or a blanket reuse license. |
 | A complete technical-talk or literature-sharing example | [Speaker Deck research](https://speakerdeck.com/c/research), or the relevant author's own talk archive | Choose a similar topic, audience, and task; inspect the author's context and relevant neighboring pages. Borrow useful relationships rather than imposing an exact sequence. A literature-sharing deck is not automatically an official author talk; static pages do not establish spoken explanation or animation. |
 | Additional layout examples when the supplied template has a gap | [SlidesCarnival](https://www.slidescarnival.com/) actual template previews | Borrow suitable alignment, spacing, and proportions. Do not fill placeholder slots with invented content or impose a three-metric layout. Check the selected template and included photos' credits separately under its [current terms](https://www.slidescarnival.com/terms-of-use). |
 | Native-object implementation in a suitable backend | [PptxGenJS official repository](https://github.com/gitbrent/PptxGenJS) and its linked documentation | Consult for the active authoring operation when applicable; it is not a required installation or tool switch. A README feature list does not verify arbitrary template import, native animation, or cross-application behavior. |
 
 For technical claims, return to the original paper, data, or author documentation. For direct reuse, apply the license and provenance guidance below. Stop when the current reference need is met.
+
+### Adapt design references
+
+当已有材料不足以确定视觉方向，或本次授权修改需要解决具体的构图、配色、图片处理或动态问题时，使用 Recent 等设计参考入口。沿用 [无模板时的视觉方向规则](implementation-and-checks.md#working-without-a-template)；已有模板和局部修改仍以已确认的视觉语言为约束。
+
+- **查看作品并提取规律。** 按当前题材与视觉问题查看少量相关作品的实际画面；借鉴动态前查看其实际运动。辨认主次比例、对齐、留白、色彩关系、裁切方式或注意力转移，选出能帮助本页解释的做法。用现有设计笔记简记参考链接、借鉴点及适用页面，足以解决当前问题即停止检索。
+- **适配中文与演示场景。** 将参考中的信息关系用于本次真实内容，按演示比例、中文标题长度、正文密度及投影或阅读距离重新布局。海报的小字、纹理和网页交互只有在不妨碍讲解时才保留；不为复刻构图删去必要技术说明。把选定的字体层级、色彩关系与图片处理融入整套视觉规范，构图仍随页面内容变化。
+- **转成所需原生对象与动作。** 依照 [可编辑性要求](implementation-and-checks.md#template-and-object-editing) 制作文字、图表、标签和连接；将运动参考表达的关系映射到 [原生效果](implementation-and-checks.md#choose-the-effect-from-the-explanation)，例如用协调入场引导注意、局部放大解释细节、状态切换展示变化。网页特效或视频预览不代表 PowerPoint 已支持同等效果。
+- **并入现有检查与来源记录。** 按 [最小制作核对](implementation-and-checks.md#minimum-production-confirmation) 查看受影响页面的实际渲染，涉及动态时核对实际效果，不另设一轮审批或重复检查。直接使用作品中的图片、字体或代码时，回到原作者页面按 [许可与来源规则](#license-and-provenance-check) 处理；仅借鉴视觉规律不需要下载或打包整套作品。
 
 ## Search and inspect
 
