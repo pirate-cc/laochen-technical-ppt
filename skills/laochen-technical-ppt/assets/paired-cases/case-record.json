@@ -1,0 +1,48 @@
+{
+  "input_sha256": "763f527db50a8847af17478d649cfb252829eb583a0b31c19ce2067f2e97b7c2",
+  "before_rule_version": "0.1.24",
+  "after_rule_version": "0.1.25",
+  "before_commit": "972c566c77ddd420d071e2d811f4e79daf1ca199",
+  "design": "Synthetic teaching cases, independent authors, same input and native PowerPoint route. Not a historical deck or a general superiority claim.",
+  "publication_note": "Office author/company metadata sanitized, including embedded workbooks; visual/object/timing parts preserved.",
+  "files": {
+    "before.pptx": {
+      "sha256": "1e5ea0f657741d2b9dcac90ff2e542e928aaa035ffa613fe86120254442887d0",
+      "metadata_changed_parts": [
+        "ppt/embeddings/Microsoft_Excel_Worksheet.xlsx",
+        "docProps/core.xml"
+      ]
+    },
+    "before-1.png": {
+      "sha256": "a9c0fc699fe27efc0c7641995d671a5058e5ca1bb6335cf715334c629770deb7"
+    },
+    "before-2.png": {
+      "sha256": "d021e5ccce4b82d5909687ab9c440cda4d4f2fbaf8acc53b3d5ab41dc98fac92"
+    },
+    "before-3.png": {
+      "sha256": "8f1d6a339667c500ac7abe603c8a4d6c156429a7e548b4054b6d7cb62d782c28"
+    },
+    "before-4.png": {
+      "sha256": "344395a88d3464dd84dfe40b8aca6ad3d0105f02e7a318cfe72cfff5eb002d51"
+    },
+    "after.pptx": {
+      "sha256": "a34e11a9238858748bad98e32b192c1794d3e450fb68314fe2e16e59c7caa1da",
+      "metadata_changed_parts": [
+        "ppt/embeddings/Microsoft_Excel_Worksheet.xlsx",
+        "docProps/core.xml"
+      ]
+    },
+    "after-1.png": {
+      "sha256": "ac550a990c6e22f5cc83eebe8fe1c4d42fe97eb0b50024b33d72491440fc24be"
+    },
+    "after-2.png": {
+      "sha256": "5ab18f1f159d930881f2d7be85a005c190bdae7f84fdd37af73f9e7fd9a13695"
+    },
+    "after-3.png": {
+      "sha256": "98d6fc1cef037a99d79080f67f13b76d34a0c38099e75c79fe4472e00d365035"
+    },
+    "after-4.png": {
+      "sha256": "dd15d2fe5b0ce2a4f042df8117ff3542862f0a8c91727310591e5d48aa445ad4"
+    }
+  }
+}

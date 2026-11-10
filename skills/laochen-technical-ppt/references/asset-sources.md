@@ -21,6 +21,8 @@ Select only useful forms. One scene can need more than one, and one strong sourc
 
 ## Subject-led visual design
 
+需要决定构图或固化本稿字体、间距和标注时，使用 [版式选择与稿内参数](layout-and-style.md)。本节继续负责主体、图像与素材质量；不另起重复的风格选型。
+
 - Establish a visible focal subject through scale, placement, contrast, and space. Keep explanatory text close to the part it explains. A useful main visual should let the audience recognize an object, locate evidence, or follow a relationship; subject-adjacent decoration alone does not explain it.
 - Keep the template's fonts, palette, fixed identity elements, and annotation language coherent while varying composition to suit the page: a scene with native overlays, overall view plus detail, aligned before/after panels, an exploded structure, or a continuous process. Choose among these as useful; do not cycle through layouts to meet a variety quota.
 - Match imported or generated assets to the template or established visual direction: contrast, color temperature, viewpoint, and visual density. Use one coherent icon family where icons identify components. Maintain the same appearance for a recurring object across pages, using an approved asset as a reference when generating related illustrations.

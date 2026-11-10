@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用指定模板，新稿按场景选取成套模板并按需自主设计，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.24 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.25 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,13 @@ English: A reusable Chinese presentation skill for Codex, covering substantive e
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.25 内容驱动版式与同输入出片比较
+
+- 增加 [版式选择与稿内参数](skills/laochen-technical-ppt/references/layout-and-style.md)：从比较、路径、整体局部、公式和数据关系选构图，按实际拥挤原因调整，复用本稿字体层级、间距、颜色含义和标注样式。
+- 增加 [可视改稿案例](skills/laochen-technical-ppt/references/visual-cases.md)，保留合成教学材料、可编辑 PPTX 和真实渲染；案例说明取舍，不能当作普遍改善证明或固定模板。
+- 增加 [同输入出片验证](skills/laochen-technical-ppt/references/paired-evaluation.md)：冻结旧版和输入，独立制作、实际渲染与相关播放检查，记录改善、退步及适用范围；公开案例后续作为教学/回归材料。
+- 原有内容深度、中文表达、模板保留、可编辑性、局部修改边界和逐页原生动态要求保持不变；不新增默认审批或普通制作任务的跨场景测试。
 
 ## 0.1.24 自然具体的页面标题
 

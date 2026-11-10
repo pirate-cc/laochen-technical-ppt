@@ -54,6 +54,8 @@ For new pages, duplicate suitable representative template slides and retain the 
 
 ## Chinese text fitting and fonts
 
+制作前将本稿实际字体层级、框内边距、间距与标注样式复用到相同角色，见 [稿内参数](layout-and-style.md#establish-reusable-deck-parameters)。测量与渲染仍按以下规则执行，参数一致不等于文字已适配。
+
 - Use the actual Chinese, Latin, and mathematical fonts, margins, spacing, and final box dimensions when checking fit. Inspect missing glyphs, unintended fallback, punctuation at line boundaries, subscripts/superscripts, symbols, and number/unit combinations. An English word-based estimator is provisional for Chinese text.
 - Preserve meaningful title phrases across line breaks. Follow the source or field convention for variables, descriptive subscripts, units, and vector/matrix notation; verify that symbols denote the same quantities in formulas, figures, and prose. When formula editing is required, use a supported editable representation and confirm its rendered result; a formula image is not proof of that capability.
 - Preserve the template's readable hierarchy. Resolve overflow through meaningful editing and layout within the approved count before reducing size. Do not impose a universal point size, line count, or character quota; inspect the agreed projection or reading context.

@@ -55,6 +55,10 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 
 素材网站可按 [适用场景、格式与使用条件](references/asset-sources.md#additional-asset-libraries) 选读，仅调用本页需要的入口。
 
+新建页面或已授权调整构图时，按 [内容关系选择版式](references/layout-and-style.md#choose-a-layout-from-the-relationship)，用 [稿内视觉参数](references/layout-and-style.md#establish-reusable-deck-parameters) 保持同类对象一致；拥挤时先调整分组、空间与构图，保留必要知识及原生动态。它们并入上述初稿、分镜与制作步骤，不增加样稿审批或额外配置文件。需要观察具体变化时选读 [可视改稿案例](references/visual-cases.md)。
+
+Skill 有实质视觉修订且需要验证成效时，使用 [同输入出片对比](references/paired-evaluation.md)，冻结输入与旧版，查看真实 PPTX 的渲染和相关播放状态；记录改善、退步及验证范围，不将规则变多或静态格式检查视为成稿质量提升。
+
 仅在需要具体示范时读取 [产品与结构动作](references/worked-examples.md#product-introduction-with-editable-motion)、[操作培训](references/worked-examples.md#procedure-training-with-native-interface-states)、[数据比较](references/worked-examples.md#comparison-with-supplied-data)、[方法讲解](references/worked-examples.md#complete-one-slide-rewrite)、[同页多模型比较](references/worked-examples.md#comparing-related-models-on-one-slide) 或 [实验平台页改写](references/worked-examples.md#reworking-an-experiment-page)。示例均标明教学设定，按关系迁移其做法，使用本次来源重新确定事实、视觉与分镜。Skill 自身有实质修订时可按 [跨场景验证](references/worked-examples.md#skill-revision-checks) 检验行为；这不增加每份 PPT 的审阅步骤。
 
 研究论证或混合材料改稿需要进一步示范时，按问题选读 [不同输出的模型比较](references/research-and-revision-examples.md#comparing-models-with-different-outputs)、[四页连续研究案例](references/research-and-revision-examples.md#research-argument-across-four-slides)、[复杂结果页分镜](references/research-and-revision-examples.md#dense-result-page-build) 或 [混合技术页改写](references/research-and-revision-examples.md#revising-a-mixed-technical-page)，不将示例页数和组织形式套到其他任务。
