@@ -2,7 +2,7 @@
 
 面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用指定模板，新稿按场景选取成套模板并按需自主设计，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
 
-**当前版本：0.1.25 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.26 · 作者：老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,14 @@ English: A reusable Chinese presentation skill for Codex, covering substantive e
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.26 规则精简与案例修正
+
+- 主文件集中任务范围、有效底线和按需入口；合并内容深度、素材选择、检查例外与协作重复，保留原生编辑和讲演版逐页原生动态。
+- 介绍与方法比较默认具体主题标题；必要身份、输入、单位和条件就近表达，避免例行灰色副标题，同时保留有依据的发现标题。
+- 将网站条目集中到 [来源目录](skills/laochen-technical-ppt/references/source-catalog.md)，仅在素材缺口需要时读取；保留所有原有入口与特有许可说明。
+- 保留历史对比稿，新增 [修正版可编辑案例](skills/laochen-technical-ppt/references/visual-cases.md#current-corrected-examples)，修正文案与小字并检查实际渲染和 PowerPoint 动画视频；准确记录检查范围。
+- 修订验证按行为与实际成果判断，不要求旧段落逐字不变；区分首次完成稿问题和修复后质量，避免只追加规则。
 
 ## 0.1.25 内容驱动版式与同输入出片比较
 
@@ -161,7 +169,11 @@ laochen-technical-ppt/
 │   ├── SKILL.md                      # Skill 主规则
 │   ├── agents/openai.yaml            # 界面元数据
 │   └── references/
-│       ├── asset-sources.md          # 主题视觉与素材来源
+│       ├── asset-sources.md          # 素材获取与复用规则
+│       ├── source-catalog.md         # 按需读取的来源目录
+│       ├── layout-and-style.md       # 内容关系与稿内视觉参数
+│       ├── visual-cases.md           # 历史对比与修正版案例
+│       ├── paired-evaluation.md      # Skill 修订验证
 │       ├── collaboration.md          # 按需协作与单稿写入
 │       ├── implementation-and-checks.md
 │       ├── research-explanation.md   # 讲解逻辑与中文成稿

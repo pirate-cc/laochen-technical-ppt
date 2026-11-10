@@ -1,194 +1,102 @@
 # Asset sources and lookup
 
-Use this reference to choose and obtain visuals that explain the page's subject after inspecting the supplied deck, project files, and relevant examples. Follow the [task scope](../SKILL.md#task-scope): a local replacement starts from its supplied asset and existing visual role; a review inspects and reports without downloading replacements or changing the deck unless requested. Reuse suitable supplied/project material directly. For new external assets, website search and original-resource inspection are the primary route; choose websites for the current subject rather than limiting discovery to the list below. Connected libraries and custom generation are useful supplements. Native relationships and data charts should still be drawn from their sources when editability or accuracy requires it; do not search for a stock picture to replace them.
+按 [任务范围](../SKILL.md#task-scope) 处理本次素材缺口。先复用提供的文件与项目材料；仅审阅不下载替代素材，局部替换保留原图承担的解释任务。
 
-Read as needed: [scene to material](#scene-to-material), [complete-template selection](template-selection.md), [local and connected reuse](#reuse-local-and-connected-material), [source discovery](#choose-sources-by-purpose), [eight additional website libraries](#additional-asset-libraries), [design-reference adaptation](#adapt-design-references), [search and inspection](#search-and-inspect), [generation](#generate-assets-for-the-slide), and [provenance](#license-and-provenance-check).
+执行顺序：[选择途径](#choose-reuse-search-drawing-or-generation) → [复用](#reuse-local-and-connected-material)、[检索](#search-and-inspect) 或 [生图](#generate-assets-for-the-slide) → [保存记录](#keep-selected-assets-reusable)。出现具体缺口才打开 [来源目录](source-catalog.md)，成套模板另按 [模板选型](template-selection.md)。
 
 ## Scene to material
 
-Use the actual topic, audience, intended understanding/action, and live/reading use to decide what the page needs. These are internal choices from the request and materials, not a fixed questionnaire. Identify the object or relationship being explained before choosing an asset type or a website. A new topic outside the examples follows the same reasoning.
+从现有请求与材料确定对象/关系、真实证据或示意用途、需同时看到的内容与独立编辑/运动对象；不另设问卷或素材数量指标。下载或生图前按 [效果关系](implementation-and-checks.md#choose-the-effect-from-the-explanation) 确认图层，素材到位后 [共同修订文案与构图](research-explanation.md#copy-and-asset-iteration)。
 
-| What the audience needs to understand | Candidate visual form | Decide before obtaining the asset |
-| --- | --- | --- |
-| Appearance, identity, or a distinctive detail | An authentic photo, artwork, product image, or screenshot with a useful detail crop. | Which visible feature supports the copy, and whether an overview, source-region cue, or enlargement is needed. |
-| An operation, sequence, or state change | Actual interface states, process objects, or a supported sequence of images. | Which states and controls must be visible, which objects change, and which context stays fixed. |
-| Composition, connections, or spatial relationships | Native components/connectors, a reliable plan, or a source-based layered diagram. | Independent components, pivot/anchor locations, paths, labels, and relationships required for editing or motion. |
-| Differences, trends, or a choice | Comparable original images, data charts, tables, or aligned states. | The common basis, units, source data, and endpoints; do not invent intermediate observations for smooth animation. |
-| A person, work, historical development, or experience | Primary images, records, works, timelines, or maps appropriate to the subject. | Identity, date/place, attribution, and the actual temporal, spatial, or thematic connection. |
-| A conceptual setting or atmosphere | A suitable photograph or generated illustration. | Whether it provides context or evidence, the needed framing/text space, and any foreground object that must be separate. |
+以下边界适用于所有途径：
 
-Select only useful forms. One scene can need more than one, and one strong source may serve several related pages. Define factual identity, required editing granularity, crop, and moving parts compactly in existing notes. Use the [effect-by-relationship table](implementation-and-checks.md#choose-the-effect-from-the-explanation) to establish layer needs before downloading or generating a flat image. Once actual material is available, [revise copy and composition together](research-explanation.md#copy-and-asset-iteration).
-
-## Subject-led visual design
-
-需要决定构图或固化本稿字体、间距和标注时，使用 [版式选择与稿内参数](layout-and-style.md)。本节继续负责主体、图像与素材质量；不另起重复的风格选型。
-
-- Establish a visible focal subject through scale, placement, contrast, and space. Keep explanatory text close to the part it explains. A useful main visual should let the audience recognize an object, locate evidence, or follow a relationship; subject-adjacent decoration alone does not explain it.
-- Keep the template's fonts, palette, fixed identity elements, and annotation language coherent while varying composition to suit the page: a scene with native overlays, overall view plus detail, aligned before/after panels, an exploded structure, or a continuous process. Choose among these as useful; do not cycle through layouts to meet a variety quota.
-- Match imported or generated assets to the template or established visual direction: contrast, color temperature, viewpoint, and visual density. Use one coherent icon family where icons identify components. Maintain the same appearance for a recurring object across pages, using an approved asset as a reference when generating related illustrations.
-- Give images a deliberate crop and enough prominence to be read. Reserve text space in the composition; keep axes, units, necessary labels, and source-required credit. Use whitespace and differences in scale to establish hierarchy while retaining the complete technical explanation.
-- Prepare separate background, foreground, native labels/connectors, and movable objects when the explanation needs them. Generate a clean background or cutout as appropriate; draw topology and data from confirmed sources. A raster asset remains an image layer, not an editable technical diagram.
-
-For a concrete illustration of these decisions, choose the relevant [product](worked-examples.md#product-introduction-with-editable-motion), [procedure](worked-examples.md#procedure-training-with-native-interface-states), or [comparison](worked-examples.md#comparison-with-supplied-data) example. Their teaching settings are optional; their subject matter is not the Skill's coverage limit.
-
-- Prefer one coherent information structure per slide, without limiting its panel count. Related models, formulas, parameter tables, or complementary evidence may form one comparison or explanation through columns, tables, or multiple figures. Follow the template or established visual language. Do not default to three-card/four-card grids, tag walls, pill labels, excessive icons, rounded boxes, or decorative gradients; avoid inventing items for a layout or reducing them to labels. Image area, title size, and whitespace must not displace necessary technical explanation. See the [multi-model example](worked-examples.md#comparing-related-models-on-one-slide).
-- For screenshots, use a focused crop, overview plus enlargement, or a few native callouts so the relevant state and action are readable. Retain the context, units, warnings, and controls that affect interpretation; a tiny complete interface does not explain it.
-- Draw meaningful technical relationships and flows, and keep their explanation nearby. Check what grouping, side-by-side placement, and arrows imply: alternatives, membership, sequence, transmitted input, or a source-supported causal relation. Do not turn platform choices into sequential steps or infer a cause from adjacent settings and error panels. Source-supported charts, waveforms, screenshots, before/after panels, and process drawings take priority when they explain the subject; unrelated stock visuals do not fill an explanatory gap. See the [mixed-page revision example](research-and-revision-examples.md#revising-a-mixed-technical-page).
-
-### Visual quality and image replacement
-
-- Match the finish to the subject and intended use. A page about material, appearance, spatial experience, or visual detail may need deliberate photography, a reliable plan, or a carefully composed illustration. A loose cluster of generic shapes is not automatically suitable because its labels are correct. Native geometry works when proportions, spacing, and hierarchy clearly explain the intended abstract or structural relationship.
-- Before replacing a rejected or rough image, identify what the page must still explain: appearance, location, route, construction, comparison, or atmosphere. Choose an asset that improves visual quality while preserving that job. Recoloring the same crude diagram is insufficient when the problem is its visual form; a beautiful photograph is insufficient when the page needs relationships the photograph cannot show.
-
-| Explanatory task | Suitable finished visual | Keep in the native overlay |
-| --- | --- | --- |
-| Read appearance, material, framing, or detail | An authentic overview and corresponding detail selected for the visible feature. | Short labels, region cues, and adjacent explanations. |
-| Explain positions, connections, or a route | A reliable plan, legible overview, or carefully drawn source-based diagram; add supporting photographs when useful. | Node labels and verified connections/route, spatial correspondence, and any scale meaning. |
-| Explain a proposed arrangement or conceptual scene | A polished illustration or editable drawing with appropriate viewpoint and composition. | Teaching labels, movable components, and required relationships; identify the scene accurately. |
-
-- An illustration cannot establish a real historical layout or deployment, and a photograph cannot establish unseen connections. If a necessary relation is absent, obtain a suitable source or retain a clear supporting diagram. Inspect the actual asset at its intended crop and prominence, including important features, focal emphasis, label space, and independent layers needed for motion.
-
-## Reuse local and connected material
-
-Start with the supplied files, the relevant project folders, and any existing asset index. Search filenames, captions, object names, and source notes for the actual subject and its useful aliases; expand to other user-provided locations only when relevant. Reuse an existing suitable asset after checking its version, meaning, quality, and rights. Do not search unrelated personal folders or download the same material again without a reason.
-
-| Existing material | How to locate and reuse it | What to retain |
-| --- | --- | --- |
-| PowerPoint decks | Read the actual page list, relationships, and relevant neighboring pages. Copy a suitable original slide/object when its native structure is needed; for a photo or illustration, obtain its embedded media through the slide/object relationships, including media under `ppt/media/`. Media filenames alone do not identify page order or the displayed crop. | Source deck and slide/object identity, meaningful crop, labels, grouping, chart data, and animation dependencies for the objects being reused. Do not replace native objects with a screenshot. |
-| Word documents and PDFs | Locate the relevant figure and its caption/page first. For DOCX, follow document relationships to embedded files, commonly under `word/media/`. For PDF, use the available document tool to extract an original image or vector figure; use a page crop when extraction loses the required composition. | Document identity, page or figure number, caption, units, credit, and the required surrounding context. A PDF crop or extracted vector does not automatically provide component-level editing. |
-| Spreadsheets, plotting projects, SVG, Visio, and design files | Prefer the underlying table, chart, plot source, or supported native objects. Inspect linked data and dependencies before reuse; use an available format-aware tool for extraction or export. Embedded spreadsheet images may be under `xl/media/`, while charts need their data and relationships. | Source data and units, required editing granularity, fonts and linked assets. A preview or vector export is not proof that cells, diagram components, or labels remain editable in PowerPoint. |
-| Existing photo, illustration, and asset folders | Consult existing `assets.json`, source notes, or filenames; inspect the actual candidate and copy only the selected original and consumed layers into the project's established asset location. | Original identity, provenance, applicable credit, transparency, and layers needed for the planned crop or motion. Keep the source files intact. |
-
-Use connected libraries when they directly cover the task and are available with the user's access. Discover the current tool contract before selecting the route: Adobe asset search may expose the user's Creative Cloud/Lightroom assets or Stock; Canva may expose existing accessible designs and Brand Templates; Drive or another connected document service may locate a supplied or relevant existing source. Follow the applicable service Skill. Search results, access to a design, stock licensing, and export/download are separate capabilities; confirm the selected operation instead of assuming access to an entire platform's media library. Prefer a sufficient local asset over an unnecessary account search. Paid licensing, new connections, or uploading private source files are not implied by a material lookup.
+- 真实截图、观测、项目设备与结果必须有对应源材料；保留身份、版本/日期、单位和时空对应。参考照片、旧项目截图和概念插画不转为本次实测证据，示意/现代重构不证明真实部署或历史状态，缺失状态不为动画流畅而编造。
+- 约定独立编辑/运动的组件、标签、连接与数据保持 [原生编辑粒度](implementation-and-checks.md#template-and-object-editing)。照片、位图、矢量导出和媒体预览本身不证明组件可编辑，也不能替代所需 PPT 原生动作。
 
 ## Choose reuse, search, drawing, or generation
 
-| Visual role | Preferred route | What stays editable or source-bound |
-| --- | --- | --- |
-| Project evidence: actual interface, record, equipment installation, measurement | Reuse the actual project material; use source data for charts. | Keep identity, units, time/space correspondence, and measured values. Generated pictures cannot supply missing evidence. |
-| Authentic object or setting: a particular instrument, deployment, historical scene | Search the manufacturer, original author, or appropriate image library. | Keep the source identity and distinguish a generic reference photograph from the user's own equipment. |
-| Conceptual scene, cutaway atmosphere, chapter visual, or foreground cutout | Normally search suitable websites for an existing asset. Use ImageGen when the user requests generation or when a custom composition, viewpoint, or consistent styling offers a clear benefit. | Treat it as illustration; keep factual topology, labels, and data in native layers. A suitable custom illustration does not require exhausting every website first. |
-| Connections, processing steps, spatial relations, plotted quantities | Draw using native shapes/connectors/charts or adapt suitable editable source assets. A reliable plan or photograph with native overlays is also useful when it shows the required relationship. | Preserve the requested editing granularity. Match arrows, scale, and connections to the actual content; choose the visual form using the replacement criteria above. |
-| Layout or coordinated illustration design | Reuse template examples; use a supplied Figma reference or Figma as the chosen design surface when useful and available. | Transfer the applicable hierarchy and assets into the agreed template. Keep required PPT objects native; do not assume Figma exports preserve every interaction or effect. |
+| 需要表达的内容 | 选用途径与区别 |
+| --- | --- |
+| 项目证据、实际操作状态 | 复用实际记录、截图、设备图或数据；操作图保留控件、反馈与未变上下文。 |
+| 真实对象、作品、历史场景 | 查原作者、厂商、持有机构或适合图库的原件，核对具体对象和时间/地点；保留总览与细节的对应。 |
+| 连接、过程、空间关系、数量 | 直接用原生图形/图表，或适配可编辑源文件；可靠平面图/照片可辅以原生标注。箭头、比例与连接由本次材料决定，无须另找装饰图。 |
+| 概念场景、氛围、前景插画 | 通常检索现有素材；用户指定生图，或定制构图、视角、统一外观有明确收益时使用 ImageGen，不必先穷尽网站。明确要求位图插画时使用图像工具。 |
+| 版式与成组视觉设计 | 沿用模板或适合的设计参考；用本次内容转译关系，工具与导出能力按下文核实。 |
 
-Choose the route for the visual's job. A clean field-scene illustration and an authentic instrument photograph may serve different jobs on the same page. When the available native shapes already explain the relationship, drawing is sufficient; an explicitly requested raster illustration calls for an image tool.
+## Subject-led visual design
+
+构图、主次、卡片取舍和字体/间距统一按 [版式规则](layout-and-style.md)。素材匹配既定色温、对比、视角与密度，图标使用一致系列，重复对象保持外观身份。按分镜准备分离的背景、前景与原生标注/连接；截图可聚焦裁切或总览加放大，但保留影响解释的警告、控件、标签和上下文。
+
+### Visual quality and image replacement
+
+先诊断替换要改善外观、细节、位置、路线、结构、比较还是氛围，再换素材或图形表达。换色不能解决图形选择错误；标签正确不代表粗糙图形已合用，漂亮照片也不能补出隐藏连接。必要关系未显示时补可靠来源或配套结构图，完成后用下文统一的候选检查。
+
+按需参照 [产品](worked-examples.md#product-introduction-with-editable-motion)、[操作](worked-examples.md#procedure-training-with-native-interface-states)、[比较](worked-examples.md#comparison-with-supplied-data)、[多模型](worked-examples.md#comparing-related-models-on-one-slide) 或 [混合页](research-and-revision-examples.md#revising-a-mixed-technical-page)；只迁移方法。
+
+## Reuse local and connected material
+
+按对象名、别名、图注与现有索引查找用户提供文件及相关项目目录，不遍历无关个人目录。已有合适原件不重复下载/生成；提取前核对版本与用途，按下表保留各格式特有关系，来源身份统一记入 [素材记录](#keep-selected-assets-reusable)。
+
+| 来源格式 | 提取与保留要点 |
+| --- | --- |
+| PPT | 查看相关页及邻页；需要原生结构时复制原页/对象。图片按 slide/object 的关系定位 `ppt/media/`，不能按媒体文件名推断页序或裁切。保留裁切、标签、分组、图表数据与动画依赖，不把原生对象截图替代。 |
+| DOCX / PDF | 先定位图注及页/图号；DOCX 按文档关系取 `word/media/`。PDF 优先提取原图/矢量，提取会丢组合含义时用页面裁切；保留图注、单位与必要上下文。 |
+| 表格、绘图、SVG、Visio、设计源文件 | 优先复用数据、图表或原生对象，检查字体、链接资源与数据依赖。`xl/media/` 内图片不是完整图表，图表还需数据和关系。用现有格式工具提取并核对实际编辑粒度。 |
+| 图片/素材目录 | 从现有索引或来源笔记取选定原件与实际使用图层，保留透明度，保护源文件。 |
+
+本地不足且已连接服务直接适用时再查素材库，按当前工具契约及对应 Skill 使用；“能搜索/看到设计”不等于已授权素材、可导出或可访问整个库。
 
 ## Choose sources by purpose
 
-Discover sources from who creates, holds, or publishes the needed material. A topic absent from this reference is not a source gap by itself. Identify the actual object, work, process, place, or dataset and a likely responsible author/organization; locate its primary page, catalogue, documentation, or repository, then follow the relevant original asset and its terms. Prefer a source appropriate to the visual's job over a familiar website with an adjacent topic.
-
-| Material needed | How to discover its source | Check on the selected item |
-| --- | --- | --- |
-| Project evidence or a specific real operation | Supplied project records, actual captures, original data, or the responsible project team's accessible files. | Correct identity, version/date, context, units, and relationship to the claim. External or generated material cannot establish a project result. |
-| A product, service, tool, or procedure | Manufacturer, operator, original designer, or maintainer; search its model/version with manual, support, media, interface, or design-file terms as relevant. | The exact model/state, visible controls and parts, source revision, and reuse permission. A reference device is not automatically the user's device. |
-| A principle, mechanism, or specialist explanation | Original research, authors' supplementary material, relevant educational institutions, professional bodies, or responsible public agencies. | The source's definitions, relationships, and level of simplification. A video may inform a native build but cannot replace required editable motion. |
-| A person, work, place, or historical narrative | Author/creator archives, site custodians, museums, libraries, universities, or original surveys. | Catalogue identity, creator, date/place/view, and item-specific terms. Distinguish a documented historical state from a modern view or reconstruction. |
-| A comparison, trend, or quantitative result | Supplied data first; otherwise the original data publisher or report with its table and definitions. | Common basis, time coverage, units, transformations, and data availability. Do not extract invented values from an illustrative chart. |
-| Context photography, icons, or illustrations | Appropriate licensed collections or original creators, selected for the needed subject, style, and editing granularity. | Actual content, crop, resolution, layers, and individual terms. A stock image supplies context rather than project evidence. |
-| Layout, diagram grammar, or implementation reference | Existing project examples first; otherwise relevant authors' presentations, design sources, or official tool examples. | Whether the reference solves this page's actual problem. Adapt structure using current content; example data and static previews do not prove facts or animation support. |
+从对象、作品、过程、场所或数据的创作者、持有者、发布机构定位原件；不因题材未在示例中出现就限于熟悉但无关的网站。按需查看 [来源类型](source-catalog.md#choose-sources-by-purpose)。
 
 ### Example starting points
 
-Use these only when their content fits the need. They illustrate source types, not prescribed subject matter, mandatory stops, or a limit on discovery.
-
-| Relevant need | Optional examples | Reuse detail |
-| --- | --- | --- |
-| Engineering or scientific teaching | [TI reference designs](https://www.ti.com/reference-designs/index.html), [ADI Circuits from the Lab](https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab.html), [EarthScope resources](https://www.earthscope.org/engage/), [USGS videos and animations](https://www.usgs.gov/educational-resources/usgs-educational-videos-and-animations). | Follow the selected document/resource to its original file, exact revision, and terms; these institutions cover particular subjects. |
-| Authentic images and collection records | [Wikimedia Commons](https://commons.wikimedia.org/), [Openverse](https://openverse.org/), [The Met Open Access](https://www.metmuseum.org/hubs/open-access), or the relevant custodian's own collection. | Inspect the original file/item record, identity, creator, and individual license/status. |
-| Context photography and illustrations | [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), and, for suitable medical topics, [Servier Medical Art](https://smart.servier.com/). | Check subject and applicable terms; do not treat linked/advertised assets as covered by one library-wide permission. |
-| Icons | [Lucide](https://lucide.dev/icons/) or [Tabler Icons](https://tabler.io/icons). | Select a coherent family and supported format; retain required notices. An SVG icon is not a component-editable technical diagram. |
-| Plot, diagram, or editable asset source | [Matplotlib's gallery](https://matplotlib.org/stable/gallery/index.html), the active tool's official examples, and original repositories on [GitHub](https://github.com/). | Inspect the actual file, data/code, README, and relevant license/NOTICE. Repository availability does not license every image or font. Keep the selected version and necessary dependencies. |
-| Presentation composition | Relevant [author-provided technical-presentation templates](https://www.craftscicom.org/ae_templates.html), or the examples below when a concrete reference gap remains. | Adapt hierarchy and evidence placement to the agreed visual direction; do not impose a fixed headline or page structure. |
+按缺口选读 [常用入口](source-catalog.md#example-starting-points)。
 
 ### Additional asset libraries
 
-根据本页场景与素材缺口选用下列入口，与前表及已有项目材料互补；不逐站遍历，也不限制继续发现更合适的原始来源。格式和使用条件依据官方说明整理于 2026-10-25，具体条目的可下载格式、账户权限和授权以使用时的原页面为准。Skill 只收录入口与方法，不附带第三方素材包。
-
-| 网站与入口 | 适用场景与检索方向 | 常见素材格式 | 使用条件与接入方式 |
-| --- | --- | --- | --- |
-| [SVG Repo](https://www.svgrepo.com/) | 设备、交通、办公、人物和概念标识；按具体对象名检索，再按风格选择同一系列。 | SVG 矢量图标、插图。 | 逐条查看 [许可](https://www.svgrepo.com/page/licensing)，不能把全站视为 CC0 或免署名；保留所选许可要求的署名/声明。先检查内部路径、分组和目标工具的导入结果，再判断能否拆成所需对象。 |
-| [Storyset](https://storyset.com/) | 教学、业务、服务和技术场景插画；先找解释所需概念，再选统一风格、配色、背景和图层。 | SVG、PNG；动画可导出 HTML、GIF、MP4。 | 免费插画需署名，免署名需有效的相应授权，见 [格式与使用说明](https://storyset.com/faqs)。需要拆分时保留 SVG 及所需图层；GIF/MP4 只作为媒体或动作参考，不当作已实现的 PPT 原生动画。 |
-| [PresentationGO](https://www.presentationgo.com/) | 流程、时间轴、关系、计划、地图等 PPT 组件，尤其适合内部汇报和教学；按关系类型而非固定卡片数选取。 | PPTX、PPT、POTX 或 Google Slides，按条目提供。 | 下载后核对原生对象与图表数据，适配当前模板。公开演示需可见署名；修改后的可编辑模板不得公开再分发，不能把下载文件打包进 Skill，见 [使用条款](https://www.presentationgo.com/terms-conditions/)。若交付需公开分发可编辑稿，选择许可兼容的其他素材。 |
-| [LottieFiles](https://lottiefiles.com/) | 状态变化、操作反馈、人物动作和流程小动画；用“对象 + 动作/状态”寻找相关片段。 | Lottie JSON、dotLottie（.lottie）；GIF、MP4 等导出格式以当前条目和账户可用项为准。 | 区分免费与 Premium；逐项检查 [动画许可](https://help.lottiefiles.com/animation-licensing-basics-) 和 [下载条件](https://help.lottiefiles.com/discovering-downloading-and-uploading-animations)。不将动画作为独立素材包再分发。Lottie 文件不自动变成 PPT 效果；需独立编辑、点击控制时按关系制作原生对象与动画。 |
-| [NASA SVS](https://svs.gsfc.nasa.gov/) | 地球、气候、天文和航天的机制讲解与科学可视化；按主题、任务或数据对象检索。 | 条目可能提供 MP4、静态图和逐帧图像集；以该页 Download 区为准。 | 查看完整 credits、数据来源和图像身份，区分观测、模拟与示意。SVS 内容通常为公共领域，但须核对例外、第三方内容和 [NASA 媒体使用要求](https://www.nasa.gov/nasa-brand-center/images-and-media/)，保留来源并避免暗示背书。按实际需要取视频、关键帧或构图参考，媒体内部对象不视为可编辑。 |
-| [Smithsonian Open Access](https://www.si.edu/openaccess) | 文物、历史、艺术、自然科学和科学仪器的实物教学；按对象、年代、作者或馆藏标识检索。 | 二维 JPG、可用时的 TIFF；三维 glTF、GLB、OBJ 等，按条目提供。 | 优先选明确标有 CC0 的条目；未标 CC0 的项目适用其具体条件，见 [官方 FAQ](https://www.si.edu/openaccess/faq)。保留馆藏身份与来源。三维资源可从 [官方开放馆藏入口](https://3d.si.edu/collections/openaccesshighlights) 定位；必要时转为合适视图，不能把渲染图称为原物照片。 |
-| [Our World in Data](https://ourworldindata.org/) | 人口、能源、环境、健康等公共议题的背景、趋势与比较；按指标、国家/地区和时期查找。 | 图表 PNG、SVG；数据 CSV、元数据 JSON，可按 [官方说明](https://ourworldindata.org/faqs) 获取。 | OWID 自制图表/数据通常按 CC BY 使用，第三方材料服从原提供者条件；保留 OWID 与原数据来源。需要可编辑图表时使用实际数据，保留定义、单位、时间范围与处理口径，不把背景统计当作本项目实验结果。 |
-| [Poly Haven](https://polyhaven.com/) | 建筑、产品、室内外空间和材料展示；按对象、材质或环境检索，仅在三维表达确有作用时使用。 | 三维 BLEND、glTF、FBX 等；材质 JPG/PNG/EXR；环境 HDR/EXR，实际选项随条目而异。 | 素材按 [CC0](https://polyhaven.com/license) 提供；网站/API 使用仍遵守各自条款。保留必要材质与贴图依赖，先确认现有工具支持的格式，再选择模型或渲染视图；不因采用该来源而默认安装三维软件，也不把通用模型当作某款真实产品的准确结构。 |
-
-选用时将对象名、动作或状态、视角/格式要求代入 [检索方法](#search-and-inspect)，查看实际条目与原件后再定稿。目录只提供候选入口，不能依据名称就认定图像合适或许可已经核验；遇到访问限制，尝试适当的官方入口或其他来源，不把无法查看的候选标为已选定。
-
-格式选择服从 [可编辑性与动态要求](implementation-and-checks.md#template-and-object-editing)：SVG 的矢量性质不保证逐部件编辑，PPTX 后缀不保证数据与效果完整，三维模型也不等于可编辑机械结构。GIF/MP4 和网页动画可以承担约定的媒体说明，要求的原生对象动作仍按 [效果关系](implementation-and-checks.md#choose-the-effect-from-the-explanation) 实现。只保存实际使用的原件、必要图层/数据和来源记录。
+补充素材库的用途、格式与特有许可见 [来源目录](source-catalog.md#additional-asset-libraries)。
 
 ## Content methods and complete-talk examples
 
-Choose a relevant entry for the current design or explanation question; do not reread every site for each deck. Suitable supplied material needs no extra search. Learn the choice behind an example within the approved template and factual scope, then use the shared [adaptation method](#adapt-design-references).
-
-| Needed reference | Starting point | What to adapt |
-| --- | --- | --- |
-| Research-story structure or audience purpose | [MIT Communication Lab: Structuring a Slide Presentation](https://mitcommlab.mit.edu/nse/commkit/structuring-a-slide-presentation/); [Duarte: How to write a great presentation](https://www.duarte.com/blog/how-to-write-a-great-presentation/) | Choose evidence and context for the audience's task. Planning from results does not require result-first delivery; persuasion techniques do not require every research talk to contain conflict or a call to action. |
-| Choosing a chart or relationship diagram | [Data Viz Project](https://datavizproject.com/): chart and diagram families, inputs, functions, and examples | Compare forms for the actual comparison, trend, distribution, composition, or structural relationship. This helps select the visual form; the Storytelling with Data entry below helps explain and emphasize a relationship within it. |
-| Explaining a data relationship | [Storytelling with Data: Is your point clear?](https://www.storytellingwithdata.com/blog/is-your-point-clear) and its before/after visuals | Study how grouping, scales, emphasis, and words answer a question. Keep important subgroup differences when aggregation would hide them; adapt explanation to live or standalone use. |
-| Organizing complex information into a visual explanation | [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/): shortlisted and winning work in science, technology, environment, and other subjects | Study how a work connects its question, evidence, annotations, and explanation. Follow the selected entry to the original work; adapt the narrative relationships to the current topic rather than importing its claims. |
-| Visual hierarchy within an existing template | [Presentation Zen: Contrast, Repetition, Alignment, Proximity](https://presentationzen.com/blog/design-fundamentals-contrast-repetition-alignment-proximity) | Use contrast, repeated elements, alignment, and spacing to express relationships. Simplification must preserve necessary technical explanation. |
-| Composition, color, image treatment, or motion inspiration | [Recent](https://recent.design/): curated branding, posters, interfaces, illustration, and motion; [Curated.design](https://curated.design/) as a supplementary source for website-specific composition and visual style | Inspect relevant works and follow their creator/source links. Translate useful visual choices into slides; these galleries are not PPT template libraries or blanket reuse licenses. |
-| Composition and visual continuity across a deck | [Deck.gallery](https://www.deck.gallery/): curated reports, presentations, portfolios, and brand guidelines | Study title/content relationships, section changes, image treatment, and continuity across related pages. Its slide previews are images, not editable PPT files. Use Speaker Deck or the author's talk archive below when the gap concerns an actual technical talk. |
-| A complete technical-talk or literature-sharing example | [Speaker Deck research](https://speakerdeck.com/c/research), or the relevant author's own talk archive | Choose a similar topic, audience, and task; inspect the author's context and relevant neighboring pages. Borrow useful relationships rather than imposing an exact sequence. A literature-sharing deck is not automatically an official author talk; static pages do not establish spoken explanation or animation. |
-| Motion that explains an object, detail, or state change | [Motionimo](https://motionimo.xyz/): curated motion work, product videos, explainers, and still frames | Use relevant sequences to study coordinated objects and attention changes. This complements the LottieFiles asset entry: motion references inform a storyboard, while required editable actions use the existing [native-effect mapping](implementation-and-checks.md#choose-the-effect-from-the-explanation). |
-| Sequencing interface states in software introduction or operation training | [Page Flows](https://pageflows.com/) as a task-specific source of recorded user flows and step annotations | Study how an operation, its feedback, and unchanged context are shown together. Use the current project's actual interface version, captures, and supported results when making the slide. |
-| Complete templates for a new deck, or layout examples for an existing gap | [Template sources and selection](template-selection.md#template-and-component-sources), including SlidesCarnival and other scene-appropriate sources | Inspect representative content pages as well as the cover. Select a coherent complete template for a new deck when appropriate; local revisions retain their established visual language. Do not fill placeholders with invented content. Check the selected file and included assets' permissions separately. |
-| Native-object implementation in a suitable backend | [PptxGenJS official repository](https://github.com/gitbrent/PptxGenJS) and its linked documentation | Consult for the active authoring operation when applicable; it is not a required installation or tool switch. A README feature list does not verify arbitrary template import, native animation, or cross-application behavior. |
-
-Some full archives, filters, or recordings require membership; check access for the selected item. If it is unavailable, use an accessible example, an appropriate original public source, or suitable existing material. Reference lookup does not by itself authorize subscriptions or require installing another tool. For technical claims, return to the original paper, data, or author documentation. For direct reuse, apply the license and provenance guidance below. Stop when the current reference need is met.
+具体设计/讲解问题需要参考时选读 [方法与完整案例](source-catalog.md#content-methods-and-complete-talk-examples)，已有合适参考不另搜。
 
 ### Adapt design references
 
-当已有材料不足以确定视觉方向，或本次授权修改需要解决具体的构图、配色、图片处理、图形选择、信息组织或动态问题时，按 [参考选择表](#content-methods-and-complete-talk-examples) 选用相关入口。沿用 [无模板时的视觉方向规则](implementation-and-checks.md#working-without-a-template)；已有模板和局部修改仍以已确认的视觉语言为约束。以下做法按参考类型选用，不要求逐项执行。
+查看少量相关作品的实际画面与必要邻页，借鉴动作先看实际运动；在现有笔记记链接、借鉴点与适用页。把有用的层级、比例、配色、裁切或注意力转移转为本次内容，按中文密度、演示比例和观看距离调整，保留关键子组差异与比较条件。不照搬原案例事实、网页/海报小字或固定叙事，不重选已确认方向。
 
-- **查看作品并提取规律。** 按当前题材与视觉问题查看少量相关作品的实际画面；借鉴动态前查看其实际运动。参考成套演示时查看相关页及相邻页面，判断其讲演或阅读用途，提取页面间的层级与节奏，不只模仿封面。辨认主次比例、对齐、留白、色彩关系、裁切方式或注意力转移，选出能帮助本页解释的做法。用现有设计笔记简记参考链接、借鉴点及适用页面，足以解决当前问题即停止检索。
-- **按信息关系选择图形。** 先确定比较、趋势、分布、组成、连接等需要表达的关系，再判断候选图形是否适用。数据、比例、连接和技术结构均由本次材料确定，优先采用适用的领域通行表达；图库中某种画法的存在不代表它适合当前数据。数据图的具体要求沿用 [图表规范](implementation-and-checks.md#scientific-charts)。
-- **把信息叙事转为页面。** 提取作品中问题、证据和解释之间的关系；将长网页或交互作品转成适合约定页数与讲解顺序的页面，保留比较条件与必要上下文。这是参考分析方法，不要求每份介绍都套用固定叙事结构。
-- **适配中文与演示场景。** 将参考中的信息关系用于本次真实内容，按演示比例、中文标题长度、正文密度及投影或阅读距离重新布局，不直接照搬阅读报告的信息密度。海报的小字、纹理和网页交互只有在不妨碍讲解时才保留；不为复刻构图删去必要技术说明。把选定的字体层级、色彩关系与图片处理融入整套视觉规范，构图仍随页面内容变化。
-- **转成所需原生对象与动作。** 依照 [可编辑性要求](implementation-and-checks.md#template-and-object-editing) 制作文字、图表、标签和连接。借鉴运动时明确对象身份、起止状态、关键变化和固定参照，再将需要表达的关系映射到所用工具支持的 [原生效果](implementation-and-checks.md#choose-the-effect-from-the-explanation)，例如用协调入场引导注意、局部放大解释细节、状态切换展示变化。网页特效或视频预览不代表 PowerPoint 已支持同等效果。
-- **并入现有检查与来源记录。** 按 [最小制作核对](implementation-and-checks.md#minimum-production-confirmation) 查看受影响页面的实际渲染，涉及动态时核对实际效果，不另设一轮审批或重复检查。直接使用作品中的图片、字体或代码时，回到原作者页面按 [许可与来源规则](#license-and-provenance-check) 处理；仅借鉴视觉规律不需要下载或打包整套作品。
+执行 [版式](layout-and-style.md)、[图表](implementation-and-checks.md#scientific-charts) 和 [制作核对](implementation-and-checks.md#minimum-production-confirmation) 的相应规则，不增一轮审批/检查；仅借鉴规律不下载整套作品，直接复用图片、字体、代码则检查许可。
 
 ## Search and inspect
 
-- Form queries from the subject or exact identifier, the visual's explanatory job, the needed asset type, and actual composition constraints. Use useful Chinese/English names, historical names, author spellings, or model numbers when they improve discovery; do not run every language or synonym mechanically. Useful recipes include `产品型号 + 操作步骤 + 官方手册`, `作品名 + 创作者 + 馆藏`, `数据发布机构 + 指标定义 + 年份`, or `object name + exploded view + manufacturer`. Replace recipe terms with this task's identifiers. Add targeted qualifiers such as `site:`, `filetype:pdf`, `plan`, `elevation`, `SVG`, or `transparent` only when that file or view serves the page. A query recipe is not a selected asset.
-- Use available web search or Exa to discover original sources; use image search when comparing visual subjects, viewpoints, and composition is helpful. Open the selected original page and actual image/preview before choosing. If a supplied screenshot has an unknown source, use its visible title, caption, credit, or distinctive subject to trace it; use reverse-image lookup only when the available tool supports it. Search thumbnails and descriptions are discovery aids, not the final asset, factual authority, or reuse permission.
-- Follow a paper or author page to its supplementary material, figure source, repository, or official talk when the main page only contains a small image. On institutional collections, inspect the item record and original download options. Prefer an original-resolution image, SVG/PDF figure, transparent PNG, layered artwork, or plot source according to the required use; a larger file or SVG suffix alone does not establish quality or editability.
-- Use connected GitHub tools for repository discovery and targeted file, README, and license inspection when they are the direct route. Inspect the specific assets needed instead of cloning an entire repository by default. Do not run repository scripts merely to inspect a picture; if an authorized editable plot requires code execution, follow the task's implementation and validation requirements.
-- Edge is an allowed search and inspection route. It can browse official sites, GitHub, libraries, and original file pages, and inspect the actual candidate visually. A search engine may help discover a source, but its thumbnail or result caption is not the final reusable asset or factual authority. Use available browser tooling and respect the user's selected browser.
-- Check the full candidate or usable preview for technical meaning, current/appropriate version, aspect ratio, cropping room, transparency/background, label legibility, resolution, and the required editing boundary. Download the chosen source file from its original page when reuse is permitted; do not deliver a search thumbnail as the asset.
-- Stop selecting when the subject is correct, the asset explains the page's intended point, it remains clear at the planned crop/size, and its source and reuse conditions are known. A visually polished but unrelated image does not qualify. Search further only for a specific unresolved mismatch; do not visit every category or repeat selection in later batches without a material reason.
-- When results repeatedly miss the same requirement, change the identifier/qualifier, source category, or visual form rather than repeating the same search. If a source is inaccessible, try a relevant available route. Generate a conceptual scene when that serves the page, draw a technical relationship from confirmed content, or identify the specific missing evidence and continue independent work. Tool failure does not justify presenting an invented screenshot or result as authentic.
+1. **定向找原件。** 用本次对象/型号/作品标识 + 解释用途 + 必要视角/格式形成查询；只在有用时增加别名、中英文或 `site:` 等限定，不机械跑同义词。用可用检索/浏览器（含 Edge，尊重用户选择）找原始页面；需要比较视角时用图像搜索。未知截图按标题、图注、署名或独特主体追溯，反向搜图仅在工具支持时使用。
+2. **取得对应文件。** 打开原始页面和实际图/可用预览，缩略图与搜索摘要不能作为最终素材、事实或许可依据。论文跟到补充材料/原图/仓库，馆藏跟到条目及下载，仓库只查看所需文件、README 和许可，不默认整库克隆。不能为看图运行仓库脚本；确需执行已授权绘图代码时按项目实现与验证要求处理。
+3. **统一验收候选。** 检查主体与技术含义、适用版本、计划裁切/尺寸下的细节和标签、比例、分辨率、透明背景、所需图层及真实编辑能力；保留轴、单位、条件与必需署名。按用途选原分辨率、透明图、矢量/图层或绘图源文件，不凭后缀和文件大小判断。满足解释用途且来源、许可明确就取原件并停止，只为具体未解决缺口继续搜索。
+4. **调整失败路径。** 连续不匹配时换标识、来源类型或图形表达，访问受限时换可用路线；允许的概念可生图，确认的关系可绘制，缺少真实证据则说明具体缺口并继续独立工作。检索停止条件不缩减事实核验或已约定文献研究范围。
 
 ## Keep selected assets reusable
 
-Extend the project's existing asset index or source notes rather than creating a parallel tracking system. For a selected/reused asset, retain the fields that support its next use: subject and useful aliases, local path, original URL or file plus page/object/figure identifier, creator and applicable terms/credit, illustration or evidence role, editing granularity, consumed layers/data dependencies, and intended slide/use. For generated assets, retain the final prompt/tool and any reference identity as described below. A compact entry is sufficient; do not inventory every rejected search result.
+更新现有素材索引/笔记，不新建并行台账或登记所有淘汰候选。对选定素材紧凑记录：主体/有用别名、项目内路径、原 URL 或源文件及页/对象/图号、创作者与许可/署名、证据或示意身份、编辑粒度、必要图层/数据依赖、用于哪页；生图另记最终提示词、工具及参考图身份。替换时更新同一条记录。
 
-Keep the original asset and only the derivatives the deck or its intended editing needs. Update the existing record when an asset is replaced, and check for a suitable saved original before downloading or generating another copy. Reuse of a prior project's illustration does not transfer that project's claims or turn an old screenshot into a current run. Source-image inspection during selection does not expand the finished-deck review scope.
+保存原件及实际使用/后续编辑所需衍生文件，更新 PPT 引用并在格式支持时嵌入使用的媒体；不依赖生成工具临时目录或临时 URL。选材时的图像检查不扩大成稿审阅范围。
 
 ## Generate assets for the slide
 
-- Use the available imagegen skill and the built-in image generation tool for raster generation/edits. Follow its handling of input references, transparency, output inspection, and saving. A normal illustration request does not require CLI/API mode, a paid external service, or a model switch. When the tool is unavailable, choose another suitable authorized asset route or state the concrete gap; do not claim a placeholder is generated art.
-- Write the asset brief from the intended slide: subject and instructional role; visual style and palette derived from the actual template or established visual direction; framing, aspect ratio, and text space from the planned composition; relationships to retain; and separate objects/layers needed for animation. Specify no text when labels will be added natively. Avoid adding unrelated props, invented details, or decorative numbers.
-- For an atmospheric background, ask for a quiet scene with room for native overlays. For a movable foreground object, ask for a separate cutout with actual transparency and preserve its alpha. A flat picture of several connected components cannot later supply independently editable components. Build required geometry and connections natively.
-- For related assets, use an approved image as a style/identity reference and repeat the relevant appearance constraints. Keep recurring subjects, lighting, perspective, materials, and contrast coherent with the deck. Request only the variants or layers the actual composition needs.
-- Inspect the asset itself for the requested subject, scientific plausibility, visual fit, alpha where needed, and unwanted text. Make a targeted correction when necessary; follow the shared [production and review boundary](implementation-and-checks.md#when-to-use-checks) for subsequent slide work.
-- Copy the selected image and any consumed layers into the project's existing assets location, update the deck's references, and embed consumed media when the authoring format supports it. Do not leave a project dependency only under the generator's default storage or a temporary URL. Record the final prompt, generation tool, intended schematic role, and saved path in existing notes; retain required external attribution separately. Follow the imagegen skill's delivery requirements when image assets are themselves requested deliverables.
+按 imagegen Skill 使用内置图像工具，并遵循输入参考、透明背景及图片交付规则；普通插画不默认切换 CLI/API、付费服务或模型。工具不可用时换已授权途径或说明缺口，不把占位图说成已生成作品。
 
-The [conceptual-scene example](worked-examples.md#conceptual-scene-with-separate-layers) illustrates a slide-specific prompt and layer plan. Its framing and style are choices for that page, not defaults to impose on other subjects.
+从计划页面写提示词：主体与解释用途、既定风格/色彩、视角/比例、文字留白、必须保留的关系及独立图层。原生标签由 PPT 添加时要求图中无文字；不增无关道具、虚构细节或装饰数字。背景留出叠加空间，移动前景单独生成并保留真实 alpha；需要独立连接/运动的组件不能合成一张平图。
+
+系列图使用已确认图作外观/身份参考，仅生成实际需要的变体与图层。按 [候选检查](#search-and-inspect) 验收，并额外检查科学合理性、透明度和意外文字，针对问题修正后统一 [保存记录](#keep-selected-assets-reusable)。示例见 [独立图层场景](worked-examples.md#conceptual-scene-with-separate-layers)，不将其风格套为默认。
 
 ## Tools and delivery surface
 
-Use local/document tools for existing originals, web/image search or Exa for source discovery, GitHub for original asset/code/README/license inspection, and available connected libraries for relevant accessible designs or media. Figma can serve an applicable supplied design reference or chosen design surface; ImageGen supplies custom raster assets. Choose tools by their current supported operation. These are optional routes, not dependencies to install or use for every page. Preserve the user's selected authoring tool and final format under [skill integration](../SKILL.md#working-with-other-skills); diagrams, real charts, and screenshots remain suitable main visuals without extra decorative pictures.
-
-For the requested PPTX, use native text, shapes/connectors, charts, and effects for the parts that must remain editable. Figma can export PPTX, but its documented export limitations include static images for live interactions/code blocks, font substitution, and changed gradient fills. Treat successful export as file production, not evidence of animation equivalence. See [Figma export guidance](https://help.figma.com/hc/en-us/articles/24848334599447-Export-from-Figma-Slides).
+工具选择及导入、原生编辑、动画能力统一按 [工作界面](implementation-and-checks.md#choose-the-working-surface) 核实，遵守用户指定工具与交付形式。Figma、网页和视频导出不自动保留所需 PPT 对象/效果；Figma 路线参照 [官方导出说明](https://help.figma.com/hc/en-us/articles/24848334599447-Export-from-Figma-Slides) 与实际文件。图表、截图或结构图足够时不补装饰图片。
 
 ## License and provenance check
 
-Check current terms at the individual asset's original page or repository before direct reuse. Keep the applicable license or permission, required credit, and meaningful modifications with the [existing asset record](#keep-selected-assets-reusable). Keep credits visible when the license, venue, or user requires visible placement; notes are appropriate only when they satisfy the actual requirement. A free download, search filter, or public GitHub repository is not permission on its own.
+直接复用前核对原条目/文件的现行许可、授权与修改要求，记录在现有素材笔记。需要可见署名时保留在页面，只有符合实际要求时才能放备注；免费可下载、搜索过滤条件或公开仓库不等于已获使用许可。各来源特殊条件见目录，仓库内图片/字体仍按各文件条款核实。
 
-Useful policy pages, to consult for the selected source rather than assuming one universal license: [Commons reuse](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia), [Openverse about and original-source discovery](https://openverse.org/about), [Unsplash license](https://unsplash.com/license), [Pexels license](https://www.pexels.com/license/), [Lucide license](https://lucide.dev/license), and [Servier terms](https://smart.servier.com/terms-of-use/). Follow repository-specific and file-specific terms for GitHub assets.
+仅在选用对应来源时查：[Commons](https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia)、[Openverse](https://openverse.org/about)、[Unsplash](https://unsplash.com/license)、[Pexels](https://www.pexels.com/license/)、[Lucide](https://lucide.dev/license)、[Servier](https://smart.servier.com/terms-of-use/)。
 
-This lookup process adds no approval checkpoint and does not change the approved story, style, or page count. Its stop condition concerns asset/reference sourcing; factual verification or a separately required literature review retains its own evidence requirements.
+检索不自动授权订阅、付费、新建连接或上传私人源文件；受限时换可用来源或在授权范围内绘制/生成。不增加审批节点，也不改变已确认的内容、风格和页数。

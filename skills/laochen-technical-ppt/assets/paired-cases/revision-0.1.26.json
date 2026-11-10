@@ -1,0 +1,30 @@
+{
+  "version": "0.1.26",
+  "kind": "Targeted correction of published 0.1.25 output; not a fresh independent paired evaluation",
+  "date": "2026-11-10",
+  "source": "after.pptx",
+  "materials": "materials.md",
+  "original_files_preserved": true,
+  "changes": [
+    "Remove routine gray subtitles and place identity, inputs and units near their objects",
+    "Keep topic title for method comparison; retain supported findings for results",
+    "Improve necessary legend text without removing formulas, conditions or data"
+  ],
+  "preserved": [
+    "All slide timing XML unchanged",
+    "Chart, embedded workbook and relationships unchanged",
+    "Original before/after PPTX and PNG unchanged"
+  ],
+  "validation": {
+    "static": "Four saved slides rendered in PowerPoint 16.0 Build 20326 at 1600x900; individually inspected; zero native text-fit warnings",
+    "animation": "Native PowerPoint CreateVideo export inspected at entry, intermediate and final stages; click groups 5/2/3/3",
+    "limits": "Video rendering does not test physical clicks or compatibility in other applications; deliverable retains manual click triggers"
+  },
+  "files": {
+    "revised-0.1.26.pptx": "f81835a83dc88da9a4a52504f09bdb9abc465384a0018af98197804b4431b35a",
+    "revised-1.png": "224dcdce2e805377e82b3fde41d6d9432e6e9134df6fe040bbe1ef26832ce2db",
+    "revised-2.png": "ccd1ec36b98b68cc667a6e5bb1064912a5e4eb8ae84cd041ba85ad8c7d4a4013",
+    "revised-3.png": "6682d9fd84cc7c63ce364d187085229658e633b7dc7efd066bc11ab1caa54c1d",
+    "revised-4.png": "21dbd4a0a4db04e8387b2e8cf6dfd518e5224ce168efbb8f81db3ed79d45efb7"
+  }
+}
