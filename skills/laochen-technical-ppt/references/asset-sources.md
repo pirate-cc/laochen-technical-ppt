@@ -6,7 +6,7 @@
 
 ## Scene to material
 
-从现有请求与材料确定对象/关系、真实证据或示意用途、需同时看到的内容与独立编辑/运动对象；不另设问卷或素材数量指标。下载或生图前按 [效果关系](implementation-and-checks.md#choose-the-effect-from-the-explanation) 确认图层，素材到位后 [共同修订文案与构图](research-explanation.md#copy-and-asset-iteration)。
+从现有正文与原材料确定每张图支持的说明、关系或判断，以及真实证据/示意用途、需同时看到的内容与独立编辑/运动对象；不另设问卷或素材数量指标。没有配图需求时不为占位取材。下载或生图前按 [效果关系](implementation-and-checks.md#choose-the-effect-from-the-explanation) 确认图层，素材到位后 [共同修订正文与构图](research-explanation.md#copy-and-asset-iteration)。
 
 以下边界适用于所有途径：
 

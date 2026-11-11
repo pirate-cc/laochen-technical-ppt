@@ -1,8 +1,8 @@
 # Explanation and Chinese copy
 
-本文件负责讲解顺序、可见文案和图文对应。按任务选读；局部修订只处理受影响的含义及必要上下文，审阅按 [任务范围](../SKILL.md#task-scope) 报告。素材获取见 [素材参考](asset-sources.md)，动态实现与检查见 [制作参考](implementation-and-checks.md)。
+本文件负责讲解顺序、完整正文和配图支持关系。按任务选读；局部修订只处理受影响的含义及必要上下文，审阅按 [任务范围](../SKILL.md#task-scope) 报告。素材获取见 [素材参考](asset-sources.md)，动态实现与检查见 [制作参考](implementation-and-checks.md)。
 
-选读：[场景与讲解](#choose-the-explanation-from-the-scene)、[页面角色](#substance-by-page-role)、[内容深度](#choose-content-depth)、[改稿判断](#diagnose-the-explanation-gap)、[学术内容组织](#research-presentations)、[图文调整](#copy-and-asset-iteration)、[来源写作](#writing-from-sources)、[辅助文字](#audience-facing-qualifications-and-small-text)、[导航与补充材料](#navigation-and-supplementary-material)、[自然中文](#natural-chinese-technical-copy)。
+选读：[场景与讲解](#choose-the-explanation-from-the-scene)、[页面角色](#substance-by-page-role)、[内容深度](#choose-content-depth)、[改稿判断](#diagnose-the-explanation-gap)、[正文与配图](#figure-and-adjacent-explanation)、[学术内容组织](#research-presentations)、[图文调整](#copy-and-asset-iteration)、[来源写作](#writing-from-sources)、[辅助文字](#audience-facing-qualifications-and-small-text)、[导航与补充材料](#navigation-and-supplementary-material)、[自然中文](#natural-chinese-technical-copy)。
 
 ## Choose the explanation from the scene
 
@@ -32,7 +32,7 @@
 
 ## Choose content depth
 
-深度取决于听众看完要能做什么。面向初学者补出前置概念和关键推导；熟悉题材的听众可从差异或证据进入。结果页须让人定位现象、条件和量级，材料没有验证的机理、意义或适用范围不补写。
+深度取决于听众看完要能做什么。面向初学者补出前置概念和关键推导；熟悉题材的听众可从差异或证据进入。结果页正文须写出关键观察、比较依据及据此作出的判断，配图供核对现象、条件和量级。现有数据能支持的计算、按已给判据得出的结论应展开；推断说明依据与范围，不补造未经支持的机理、性能或适用范围。
 
 先读原始公式、图注、参数或实现：资料充分却只剩概念名称、笼统评价或无解释图片时，补回 [页面角色](#substance-by-page-role) 所需知识；资料有限则补充必要来源或缩小论述范围。布局前后均保留关键含义，固定页数下先调整组织，不机械拆页。封面和导航按其用途保持简洁。具体示范见 [方法页](worked-examples.md#complete-one-slide-rewrite) 与 [多模型比较](worked-examples.md#comparing-related-models-on-one-slide)。
 
@@ -44,13 +44,17 @@
 
 ## Figure and adjacent explanation
 
-先确定图片承担解释还是情境作用，再写邻近说明：
+先按本页任务写完整正文，再确定配图承担证据、结构解释、操作定位或情境作用。正文讲清实际工作、做法、关系或判断，图帮助理解或核对这些话；图注、图例与部件名只负责识别，不能充当整页正文。
+
+正文可以是连贯段落、有解释的条目或完整步骤，不强制拆成卡片，也不要求每页重复研究全过程。方法页讲怎样做及用途，结果页讲观察与判断，方案页讲需求与取舍；必要的原因、条件和中间推理不能缩成“提升性能”等标签。图表可承载详细数值和复杂结构，正文保留核心说明，避免逐项抄写图中全部信息。目的、指标或验证计划用正文即可说清时，可以不配内容图片。
+
+配图的局部说明按实际对象处理：
 
 - 照片只说明实际可见的对象，不凭外观补造内部部件。
 - 截图明确控件、状态与证据角色，保留必要上下文、单位和警告；可由标题、面板名或邻近文字标明用途。
 - 数据图指出趋势、差异及条件；结构图指出连接、方向及作用。
 
-整体图与局部细节按理解需要配合。问题句不能成为图旁唯一解释；标题和主图应共同说明本页内容。
+整体图与局部细节按理解需要配合，说明靠近对应证据。问题句或“左图是……、右图是……”不能成为应有正文的替代。示范见 [连续研究案例的方法与结果页](research-and-revision-examples.md#research-argument-across-four-slides)。
 
 ## Locating evidence during explanation
 
@@ -65,7 +69,7 @@
 
 ## Explain the method in the project
 
-讲清方法的输入、关键操作、输出及项目用途，并对应实际物理量；这些关系不要求排成四张卡片。“拟合直线并逐点相减”比“处理：预处理”具体。文献中成立的作用不能写成本项目已取得的性能；参见 [方法页完整改写](worked-examples.md#complete-one-slide-rewrite)。
+正文讲清方法的输入、关键操作、输出及项目用途，并对应实际物理量；流程图、公式和算例支撑说明，这些关系不要求排成四张卡片。“拟合直线并逐点相减”比“处理：预处理”具体。文献中成立的作用不能写成本项目已取得的性能；参见 [方法页完整改写](worked-examples.md#complete-one-slide-rewrite)。
 
 ## Concept comparisons
 
@@ -91,13 +95,15 @@
 
 ## Copy and asset iteration
 
-先写要解释的含义和所需视觉，不把待找的素材当成已有事实。材料足够时改用准确名称和具体说明；只支持一部分时补材料、缩小论述或换表达。不能为迁就图片改变事实。
+先读原材料中的文字、图表与数据，据此写出可上屏正文，再提出各图支持的内容；不把待找的素材当成已有事实。素材到位后核对正文是否准确，材料只支持一部分时补材料、缩小论述或换表达。可以提前盘点素材，不用等全稿定稿；不能让图片库存决定只讲什么，也不能为迁就图片改变事实。
 
 画面拥挤时先调分组、构图和冗余表达，再考虑缩字号，保留必要含义。一页缺图不阻断其他已明确页面；局部改稿阅读相邻上下文。
 
 ## Writing from sources
 
 区分原文事实、来源观点和本稿推断；正文表达实际对象、操作与关系，不从摘要补造细节。跨页用对象、概念、时间或数据承接，同一案例再次出现应增加解释。进展以实际记录为准。标题与辅助文字分别按后文专节处理。
+
+**以实质内容组织正文。** 优先写“采用了什么做法、怎样作用、记录到什么、据此怎样判断”，不以“尚未……、不能证明……、不代表……”开头堆出限制清单。内部待补资料留在交接记录；材料未涉及的事项自然收住。结果未达标时直接写指标和差距，计划用“下一轮将……”交代具体行动；会改变读者判断的条件或状态在相关处简短说明一次，避免每页反复声明。不要用泛化保证或防御性话术填补知识缺口。
 
 ## Audience-facing qualifications and small text
 
@@ -110,9 +116,9 @@
 | 样本、比较口径、不确定性及结果状态 | 放在依赖这些条件的比较或结论附近。 |
 | 必要署名、知识归属或明确要求的披露 | 可见简短引用；身份本身属于知识时不能移走，完整书目信息可放备注。 |
 | 不改变内容理解的详细来源、生成或制作记录 | 默认放备注。 |
-| 讲述顺序、泛化提醒与补充口算 | 放备注或删除。 |
+| 讲述顺序、泛化提醒与不影响判断的补充口算 | 放备注或删除；判断所依赖的计算及解释保留在正文。 |
 
-不要仅将冗余句放大、换色或改名为图注来保留。阅读版须有足够可见解释；备注帮助讲述，不能代替正文知识。介绍页无需例行写“未验证”等限制语，实际影响理解或判断的状态按上表保留。
+删除的是制作提示和同义复述；实际动作、比较依据与结果含义属于正文，不能因删副标题而一并删去，也不能降成小字图注。不要仅将冗余句放大、换色或改名保留。讲演版与阅读版都须有可见的实质正文，备注帮助讲述，不能代替正文知识。介绍页无需例行写“未验证”等限制语，实际影响理解或判断的状态按上表保留。
 
 ## Navigation and supplementary material
 

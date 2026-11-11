@@ -1,18 +1,18 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.26",
-  "description": "Create, revise, or review Chinese presentations with scene-appropriate templates, substantive explanations, clear comparisons and arguments, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
+  "version": "0.1.27",
+  "description": "Create, revise, or review Chinese presentations with complete body copy supported by figures, scene-appropriate templates, clear comparisons and arguments, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
   "author": {
     "name": "老陈"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "老陈技术汇报PPT",
-    "shortDescription": "内容驱动版式、稿内视觉统一与原生动态的可编辑PPT。",
-    "longDescription": "依据题材、听众与材料展开实质讲解；介绍和方法比较默认具体主题标题，必要输入、条件、单位及身份就近可见。按任务加载文案、版式、素材、来源目录与实现参考；沿用指定模板或完整视觉方案，按需选型和原创设计。保留约定原生编辑粒度，新建或整体重做讲演稿逐页原生动态；局部修改保留范围外内容和效果。保存后核对内容、渲染及相关动态效果，准确区分已检查、用户接管与能力受限。",
+    "shortDescription": "正文讲清内容、图辅佐文字，逐页原生动态的可编辑PPT。",
+    "longDescription": "完整 PPT 制作默认由内容子代理先确定整稿主线、每页演示任务并写出完整正文，制作子代理据此制作，素材与模板专项按需加入。正文讲实际工作、做法、原理和有据判断，减少重复防御性表述；图服务于正文，图名、图例和标签不能替代讲解。沿用指定模板或按场景选型，标题自然具体，保留约定原生编辑粒度与讲演稿逐页原生动态。局部修改保持原范围，保存后对照内容稿检查正文、配图、渲染及相关动态效果。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "请使用老陈技术汇报PPT，沿用指定模板或按场景选型，依据本次听众与材料写自然具体的标题、把内容讲充分并理清论证，制作逐页原生动态的可编辑讲演 PPT，完成内容、渲染与动态效果核对后直接交付。"
+    "defaultPrompt": "请使用老陈技术汇报PPT，由专门内容子代理先确定每页演示什么并写完整正文，讲清实质内容，减少防御性表述；其他专项根据内容稿选素材、模板并制作，交付标题自然、图辅佐文字、逐页原生动态的可编辑 PPT，核对实际成稿后直接交付。"
   }
 }

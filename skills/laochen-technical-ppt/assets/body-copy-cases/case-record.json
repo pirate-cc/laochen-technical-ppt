@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-11",
+  "skill_version": "0.1.27",
+  "material": {
+    "path": "materials.md",
+    "identity": "Self-created teaching scenario; no private project data or third-party imagery."
+  },
+  "workflow": [
+    "A writes the storyline, per-page demonstration tasks and complete body copy.",
+    "C integrates the content into one authoritative native PowerPoint file.",
+    "A reviews the saved text and all four rendered pages; the coordinator verifies rendering, charts and native animation video."
+  ],
+  "content_review": {
+    "result": "passed",
+    "titles_preserved": 4,
+    "body_paragraphs_preserved": 11,
+    "main_formula_preserved": 1,
+    "substantive_semantic_rewrites": 0,
+    "observed": "The page bodies explain work, mechanism, records and next actions. Figures support those explanations. Relevant conditions remain beside their claims."
+  },
+  "verification": {
+    "environment": {
+      "application": "Windows PowerPoint",
+      "version": "16.0",
+      "build": "20326"
+    },
+    "static_render": {
+      "pages_reviewed": 4,
+      "size": [
+        1600,
+        900
+      ],
+      "observed_clipping_or_obstruction": false
+    },
+    "text_bound_warnings": {
+      "count": 2,
+      "review": "Two conservative width warnings were checked against actual renders; text was complete and did not obstruct adjacent content."
+    },
+    "native_package": {
+      "slide_order_resolved": true,
+      "native_charts": 2,
+      "embedded_workbooks": 2,
+      "series_cache_workbook_categories_and_markers_match": true,
+      "animation_targets_resolved": true,
+      "raster_content_on_pages": false
+    },
+    "animation": {
+      "click_groups_per_slide": [
+        3,
+        4,
+        3,
+        2
+      ],
+      "effect_counts_per_slide": [
+        16,
+        39,
+        10,
+        5
+      ],
+      "manual_click_retained": true,
+      "automatic_slide_advance": false,
+      "observed_method": "PowerPoint CreateVideo; reviewed entry, intermediate and final states from the native-rendered video.",
+      "observed_result": "Body copy and supporting objects appear in explanation order; previous context remains visible."
+    },
+    "not_tested": [
+      "Physical mouse-click input",
+      "Manual editing of each object",
+      "Other presentation applications"
+    ]
+  },
+  "repair_record": "During integration, numeric output indices were initially interpreted as a chart series. They were changed to text categories; the saved charts, markers, threshold lines and both embedded workbooks were rechecked.",
+  "comparison_scope": "An initial same-material single-author baseline and candidate were retained locally. The final candidate adds a dedicated content author and a handoff revision; this is a demonstrated workflow, not an author-count-controlled blind comparison or proof of universal improvement.",
+  "publication": {
+    "original_deck_sha256": "f50ad4c0f4e98e4deb9bb4a3edc95a85067fc7e06a35b5bd68aa6c43eff690d8",
+    "published_deck_sha256": "a2ecd311319dceccd42673ce519c59257515a12dc0fd440e0ab9534076d89380",
+    "sanitization": "Removed Office author/company metadata; replaced only material and content-brief absolute paths in speaker notes with published relative filenames.",
+    "slides_charts_timing_relationships_and_workbook_data_unchanged": true
+  },
+  "files_sha256": {
+    "content-brief.md": "a6d28f854898c437370b5b25f02dbe10dadf8603bdf7213d578814f9754b2555",
+    "materials.md": "59ef8845de2d595bfd18e0bb6c04ccf27773f87e11cde5716fb6659af1e47a3c",
+    "report.pptx": "a2ecd311319dceccd42673ce519c59257515a12dc0fd440e0ab9534076d89380",
+    "slide-1.png": "fe9aafd6d4cd19ba9c7eb30a8b9b1f16ca470d481085cd1822993f92c0e5247a",
+    "slide-2.png": "33e846490d49771f7672973af318aeb6d138dba7ef97537442ab4d8fcfee5602",
+    "slide-3.png": "7a1ef7983302ce640ca76be94a52c6cc2137100a7eb562b9264481143e9cb70a",
+    "slide-4.png": "e33bc05f501223c005e80aa897980d5087f24b129aa071e0e4cfc5ae5054bf6c"
+  }
+}

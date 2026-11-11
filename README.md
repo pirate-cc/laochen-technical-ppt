@@ -1,19 +1,30 @@
 # 老陈技术汇报 PPT
 
-面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。依据听众和用途展开实质内容，选择相应素材与动态；沿用指定模板，新稿按场景选取成套模板并按需自主设计，交付讲解充分、文案自然、视觉贴合主题、保留原生编辑能力的 PowerPoint。
+面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。以完整正文为主体，先讲清事实、做法、关系与判断，再用图支撑说明；沿用指定模板，新稿按场景选型或自主设计，交付文案自然、讲解充分、保留原生编辑能力与逐页原生动态的 PowerPoint。
 
-**当前版本：0.1.26 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本：0.1.27 · 作者：老陈 · [MIT License](LICENSE)**
 
-English: A reusable Chinese presentation skill for Codex, covering substantive explanations, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
+English: A reusable Chinese presentation skill for Codex, with complete body copy supported by figures, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
 ## 能做什么
 
-- **新建或整体重做：** 从场景和观众目标安排讲解，依据实际素材共同修订文案、视觉与原生动态；讲演稿默认每页都有服务内容的对象动画。
+- **新建或整体重做：** 从场景和观众目标安排讲解，读透原材料后先写完整正文，再配图支持并安排原生动态；讲演稿默认每页都有服务内容的对象动画。
 - **局部修改：** 只修改指定页面、对象及必要依赖，保留无关内容、格式与动画。
 - **审阅、解释或诊断：** 默认只检查和报告；用户明确授权后才修改文件。
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.27 正文为主体，图辅佐文字
+
+- 核心规则和制作顺序明确先定演示内容、形成完整上屏正文，再按正文需要配图；图片识别、图例和部件标签不能替代正文。
+- 区分正文与图注：实验页讲实际做法及条件，结果页讲观察、比较依据与判断；材料支持的计算和解释可充分展开，保留事实与推断的边界。
+- 版式支持连贯段落、完整步骤、结果分析配证据图表及纯文字页；模板选型检查必要正文是否有可读空间，不用图文面积配额决定质量。
+- 完整制作默认由专门 A 内容子代理决定整稿主线、每页要演示什么并写出完整正文，C 制作子代理据此制作；B 提供支持材料、D 选模板，按实际需要加入。A 回看成稿，主代理统一整合；局部修改不自动扩成全流程，不新增用户审批。
+- 正文优先讲实际做法、原理、观察与判断；计划写具体行动，结果直接说明指标和差距，减少反复“尚未”“不代表”等防御性清单，必要条件仍就近说明。
+- 制作检查先读保存后的正文，再核对配图如何支持；同步修订 [连续研究示例](skills/laochen-technical-ppt/references/research-and-revision-examples.md#research-argument-across-four-slides) 及 [修订验证](skills/laochen-technical-ppt/references/paired-evaluation.md)。
+- 增加 [正文先行的四页完整案例](skills/laochen-technical-ppt/references/visual-cases.md#body-copy-and-production-handoff)，保留原始材料、A 的内容稿、C 制作的可编辑 PPTX 和检查记录，供核对正文如何进入最终页面。
+- 原生可编辑、讲演版逐页原生动画、自然标题、局部修改边界和按影响范围复验的要求继续保留。
 
 ## 0.1.26 规则精简与案例修正
 
@@ -172,7 +183,7 @@ laochen-technical-ppt/
 │       ├── asset-sources.md          # 素材获取与复用规则
 │       ├── source-catalog.md         # 按需读取的来源目录
 │       ├── layout-and-style.md       # 内容关系与稿内视觉参数
-│       ├── visual-cases.md           # 历史对比与修正版案例
+│       ├── visual-cases.md           # 内容交接、历史对比与修正版案例
 │       ├── paired-evaluation.md      # Skill 修订验证
 │       ├── collaboration.md          # 按需协作与单稿写入
 │       ├── implementation-and-checks.md
