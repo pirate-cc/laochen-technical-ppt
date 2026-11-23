@@ -1,18 +1,18 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.27",
-  "description": "Create, revise, or review Chinese presentations with complete body copy supported by figures, scene-appropriate templates, clear comparisons and arguments, editable objects, and native animation on every slide of new or wholly remade live-talk decks.",
+  "version": "0.1.28",
+  "description": "Plan, write, revise and review Chinese presentations, from slide-by-slide knowledge trees to editable PowerPoint decks. Connect section overviews, explanations and evidence. New or wholly remade live-talk decks have native animation on every slide.",
   "author": {
     "name": "老陈"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "老陈技术汇报PPT",
-    "shortDescription": "正文讲清内容、图辅佐文字，逐页原生动态的可编辑PPT。",
-    "longDescription": "完整 PPT 制作默认由内容子代理先确定整稿主线、每页演示任务并写出完整正文，制作子代理据此制作，素材与模板专项按需加入。正文讲实际工作、做法、原理和有据判断，减少重复防御性表述；图服务于正文，图名、图例和标签不能替代讲解。沿用指定模板或按场景选型，标题自然具体，保留约定原生编辑粒度与讲演稿逐页原生动态。局部修改保持原范围，保存后对照内容稿检查正文、配图、渲染及相关动态效果。",
+    "shortDescription": "逐页知识树、学术方法讲解与可编辑中文 PPT。",
+    "longDescription": "按用途交付知识树、上屏文案、局部修订或整套 PPT。学术专题围绕一个问题安排前提、参照和核心方法，导读与详页承接同一过程。正文解释操作的作用和数据支持的判断，图上可定位对应依据。完整制作由内容与制作子代理协作，沿用指定模板，保留原生编辑和讲演稿逐页原生动画，并按受影响范围核对保存后的实际页面。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "请使用老陈技术汇报PPT，由专门内容子代理先确定每页演示什么并写完整正文，讲清实质内容，减少防御性表述；其他专项根据内容稿选素材、模板并制作，交付标题自然、图辅佐文字、逐页原生动态的可编辑 PPT，核对实际成稿后直接交付。"
+    "defaultPrompt": "请使用老陈技术汇报 PPT，按我的材料和交付要求梳理主线，把关键原理和有依据的判断讲清楚。"
   }
 }

@@ -1,6 +1,6 @@
 ---
 name: laochen-technical-ppt
-description: "Create, revise, or review Chinese PowerPoint decks for technical reports, teaching, product introductions, training, cultural topics, and other presentation scenes. Write complete body copy supported by figures, with natural Chinese, editable objects, and native animation on every slide of a new or wholly remade live-talk deck."
+description: "为中文学术报告、教学、产品、培训或文化演示梳理逐页知识树、撰写上屏文案、制作或审阅 PowerPoint。按听众目标安排主线与详略，用图中证据讲清原理和判断。制作可编辑 PPT，新建或整体重做的讲演稿逐页编排原生动画。"
 ---
 
 # 老陈技术汇报 PPT
@@ -14,19 +14,19 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 | 新建或整体重做 | 完整制作；讲演稿每页原生动画，包括封面、过渡和结束页 |
 | 局部修改 | 只改指定对象与必要依赖，保留无关内容、格式和动画；新增页按用途制作，不补做全稿动画或重选风格 |
 | 审阅、解释、诊断 | 报告位置、依据和建议；完整上下文已授权修复时执行修改 |
-| 仅文案、提纲或素材 | 只交付所求内容，不顺带做 PPTX；静态、打印、纯阅读按其用途处理 |
+| 仅知识树、文案或素材 | 知识树用分支或嵌套列表展示主题、知识点与逐页任务。文案和素材按所求形式交付。用户只要提纲、样段或样页时止于该成果。静态、打印、纯阅读按其用途处理 |
 
 混合请求分别处理。用户要求、已确认安排和保留项优先；不增加默认大纲、样稿或分批审批。制作中修正本次造成的问题属于制作范围。需要辨别边界时看 [示例](references/worked-examples.md#task-boundary-cases)。
 
 ## Core requirements
 
-1. **正文为主体，图辅佐文字。** 内容页先依据材料形成完整上屏正文，讲清本页的事实、做法、关系或判断，再配图支持；图名、图例和标签不替代正文。按观众目标和理解依赖组织，相关模型、步骤和证据可以同页。保留必要定义、操作、公式、条件和判断依据，不以字数、卡片数或图文面积比例判定完成。
-2. **事实准确，正文讲实质内容。** 来源可定位，区分示例、设计、仿真与实测，不拿历史案例或生图冒充新运行。正文先讲实际做法、原理、结果与判断，变量、单位和必要条件随对象可见；不把材料未涉及的事项写成防御性声明清单。影响结论的状态、差距和不确定性在相关处简短交代。
-3. **文字自然。** 介绍、解释、方法比较及归纳页默认具体主题；操作页写实际动作，结果页可写有据发现。标题不写口号、讲者提醒或正文摘要，正文不是待用户扩写的提纲。听众定位和制作背景留在内部，不加“教学构造数据”等防御性小字或例行灰色副标题；删掉后不移位、放大或改名保留。输入、单位和示例身份就近自然表达，只有必要的整页限定才用可读副标题。通读相邻页，核对表达和证据，见 [文案规则](references/research-explanation.md#writing-from-sources)。
+1. **先定主线，再写完整上屏正文。** 从听众最后要能解释的问题或完成的任务倒推详略。章节导读给出的关系应贯穿详页。内容页以正文为主体，讲清事实、操作、机制或判断，再配图支撑。相关模型、步骤和证据可以同页，保留理解所需的定义、公式和条件。
+2. **把依据写到判断这一步。** 数据页说明在什么条件下观察到什么差异、这项差异支持怎样的判断或用途。原理页解释某项操作怎样改变对象、这个改变有什么作用。讲到材料能支持的程度，变量和单位就近可见，区分示例、设计、仿真、文献结论与本次实测。影响解释的限制在相应判断旁交代一次。
+3. **文字自然。** 介绍与比较页直接点明具体主题，操作页写动作，结果页可写有据发现。保留用户指定的标题，删去充当标题的口号和题下重复摘要。讲者提醒与制作背景留在内部，详细来源通常归入备注，必要署名与条件就近保留。题下、页脚和图边统一按[信息的用途](references/research-explanation.md#audience-facing-qualifications-and-small-text)取舍。
 4. **沿用方向，按内容构图。** 保留既有模板或完整视觉方案；仅有风格方向且仍需模板时在该方向内选型，无指定时查看少量适配候选。明确原创或无合适模板时自主设计。保持稿内字体、配色和标注一致，关键类别不只靠颜色区分；不为版式删改必要含义。
-5. **按正文需要取材。** 配图须支持相应说明或判断；先复用合适已有材料，关系图、真实数据图可直接原生绘制，真实照片和原图查来源，概念插画按需生成。提前确定真实性、编辑粒度和运动图层，查看原件、核对许可、保留来源或提示词；图文相互修订，够用即停。
+5. **让听众在图中找到依据。** 先复用合适原件。按本页任务选数据图、机制图、设备图或概念插画，明确支持哪句话、读者应看哪一处。密集图按需采用直接标名、范围强调、同号说明或局部放大。提前确定来源真实性、许可、编辑粒度与运动图层，保留来源或生成提示词。
 6. **保留原生编辑与逐页动画。** 文字、表格、图表数据、技术图组件及连接按约定粒度编辑；照片和背景可为图像。新建/重做讲演稿每页都有原生对象入场、强调或动作，简单页可一次协调入场。复杂图按解释表现路径、运动、放大或真实状态切换，标识与说明同步并保留上下文。整页转场不替代页内动画，标签淡入不替代机制运动；不以整页图片、视频或近似重建稿静默替代原生对象。
-7. **看保存后的实际结果。** 按 [制作核对](references/implementation-and-checks.md#minimum-production-confirmation) 检查内容、标题及下一行、对象和图文对应；改版式看实际渲染，改动画/交互检查相关入场、中间和终态。明确区分已检查、用户明确接管、能力受限；XML 或脚本成功不能称为效果通过。只复验受影响范围。
+7. **看保存后的实际结果。** 连读受影响的导读和详页，再从关键正文指回具体图证。按[制作核对](references/implementation-and-checks.md#minimum-production-confirmation)检查整页文字、对象和图文对应。改版式看渲染，改动画或交互看入场、中间和终态。区分实际查验、用户接管和能力受限，只复验受影响范围。
 
 ## Working with other skills
 
@@ -40,8 +40,8 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 
 局部修改从已有成果进入，其他制作按依赖推进：
 
-1. **确定约束。** 读请求、原材料和已有稿，确定用途、页数/时长、保留项、模板与输出路径；尽早核实导入、编辑和动态能力。要求模板保真时先取得原件，仅澄清无法自行解决的关键缺口。
-2. **先定演示内容，再写完整正文。** A 读透包括图表、数据在内的原材料，提出整稿主线和每页要演示的内容，形成可直接上屏的正文、来源及配图需求；主代理核对与本次目标的对应。正文不能只剩标题、关键词或图注。改稿先辨别 [知识、关系或显示问题](references/research-explanation.md#diagnose-the-explanation-gap)，再选 [版式](references/layout-and-style.md#choose-a-layout-from-the-relationship)。
+1. **确定约束。** 区分指定模板、待改原稿与仅供取材的旧稿，沿用最新确认的范围、页数或时长、保留项及输出路径。要求模板保真时取得原件，及早核实导入、编辑和动态能力。
+2. **组织章节和逐页正文。** 完整制作由 A 读原材料和图表，定主讲对象、前置知识与参照，在现有页计划中写出逐页任务、完整正文和配图依据。学术原理讲解或跨页方法导读按[方法专题](references/method-talks.md)组织。已认可的样段用于校准解释深度。改稿先诊断[知识、关系或显示问题](references/research-explanation.md#diagnose-the-explanation-gap)，再选[版式](references/layout-and-style.md#choose-a-layout-from-the-relationship)。
 3. **配图并制作。** 按正文需要取得原件，素材揭示新事实或限制时据此修订正文；先为必要解释安排空间，再确定配图、分层和讲述顺序中的动态，简单分镜一句话即可。复用合适模板页、原生对象和现有实现，按真实字体与尺寸制作，先调组织和空间再考虑缩字号。
 4. **保存、检查、交付。** 执行第 7 条，提供一个权威最新版、直接可用入口、实际验证和影响使用的限制。某页受阻时继续其他独立工作，不静默改变交付要求。
 
@@ -49,6 +49,7 @@ description: "Create, revise, or review Chinese PowerPoint decks for technical r
 
 | 当前需要 | 入口 |
 | --- | --- |
+| 逐页知识树、学术原理专题、导读与详页 | [按场景安排知识树](references/research-explanation.md#choose-the-explanation-from-the-scene)／[方法专题与示例](references/method-talks.md) |
 | 内容深度、研究论证、标题与标签位置 | [讲解与文案](references/research-explanation.md) |
 | 模板选型／构图与稿内一致性 | [模板](references/template-selection.md)／[版式与参数](references/layout-and-style.md) |
 | 素材复用、检索、绘制或生成 | [素材路径](references/asset-sources.md#choose-reuse-search-drawing-or-generation)；有来源缺口再查 [目录](references/source-catalog.md) |

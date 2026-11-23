@@ -31,6 +31,8 @@
 
 先诊断替换要改善外观、细节、位置、路线、结构、比较还是氛围，再换素材或图形表达。换色不能解决图形选择错误；标签正确不代表粗糙图形已合用，漂亮照片也不能补出隐藏连接。必要关系未显示时补可靠来源或配套结构图，完成后用下文统一的候选检查。
 
+用户要求“论文级”“顶刊水平”的科研图时，先写明观众应能看出哪项关系。数据比较可以让同一输入、基准、局部窗口在各面板对齐。机制图可追踪同一个变量在操作前后的状态。设备图优先用原件，以直接标名或原图与说明同号对应定位功能。版式参考不足时，实际查看与这个问题相近的论文原图，借鉴面板关系、线型和标注层级。在投影尺寸核对该关系是否清楚，详细[科学图表规则](implementation-and-checks.md#scientific-charts)按需使用。概念插画用于场景，读数和连接关系来自数据、设计或可核实的原件。
+
 按需参照 [产品](worked-examples.md#product-introduction-with-editable-motion)、[操作](worked-examples.md#procedure-training-with-native-interface-states)、[比较](worked-examples.md#comparison-with-supplied-data)、[多模型](worked-examples.md#comparing-related-models-on-one-slide) 或 [混合页](research-and-revision-examples.md#revising-a-mixed-technical-page)；只迁移方法。
 
 ## Reuse local and connected material

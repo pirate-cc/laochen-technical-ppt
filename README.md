@@ -1,8 +1,8 @@
 # 老陈技术汇报 PPT
 
-面向中文技术汇报、教学、产品介绍、操作培训、文化叙事等场景的 Codex Skill。以完整正文为主体，先讲清事实、做法、关系与判断，再用图支撑说明；沿用指定模板，新稿按场景选型或自主设计，交付文案自然、讲解充分、保留原生编辑能力与逐页原生动态的 PowerPoint。
+面向中文学术报告、教学、产品介绍、操作培训和文化叙事。可先交逐页知识树或上屏文案，也可沿用模板制作可编辑 PowerPoint。方法专题按听众要理解的问题安排详略，正文讲清机制或判断，读者可以在图中找到依据。新建或整体重做的讲演稿逐页编排原生动画。
 
-**当前版本：0.1.27 · 作者：老陈 · [MIT License](LICENSE)**
+**当前版本 0.1.28 · 作者 老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, with complete body copy supported by figures, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,13 @@ English: A reusable Chinese presentation skill for Codex, with complete body cop
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.28 学术方法专题与跨页讲解
+
+- [学术方法专题](skills/laochen-technical-ppt/references/method-talks.md)从听众要解释的问题出发，安排前置知识、传统参照、核心方法和贯穿案例，给出三级知识树和可直接上屏的讲解示范。
+- 方法导读与详页使用一致的父子关系。读者能区分训练、离线标定与单次运行，也能跟随中间产物抵达最终输出。
+- 原理页解释操作及作用，数据页说明观察支持的判断。复杂机制、科研数据和硬件原图按投影或阅读尺寸选择图证与局部标记。详细出处归入备注，必要条件和署名在相应位置可见。
+- 复用原有 A/C 交接，按请求区分样段、知识树和完整制作。修改章节后连读导读与详页，检查图证、页码和引用。[可编辑平场校正案例](skills/laochen-technical-ppt/references/visual-cases.md#academic-method-chapter)含原始材料、旧稿、新稿及知识树。
 
 ## 0.1.27 正文为主体，图辅佐文字
 
@@ -103,7 +110,7 @@ English: A reusable Chinese presentation skill for Codex, with complete body cop
 ```text
 使用 $skill-installer 安装这个 GitHub Skill：
 https://github.com/pirate-cc/laochen-technical-ppt/tree/main/skills/laochen-technical-ppt
-请保留整个 Skill 目录，包括 agents 和 references。
+请保留整个 Skill 目录，包括 agents、references 和 assets。
 ```
 
 安装后，在下一轮对话选择或调用 `$laochen-technical-ppt`；如果列表没有更新，重启 Codex 再试。
@@ -123,7 +130,7 @@ git clone https://github.com/pirate-cc/laochen-technical-ppt.git
 | 当前用户 | `~/.agents/skills/laochen-technical-ppt/` |
 | 当前项目 | `<项目根目录>/.agents/skills/laochen-technical-ppt/` |
 
-Windows 上 `~` 指你的用户目录。复制后，目标目录应直接包含 `SKILL.md`、`agents/` 和 `references/`，不要只复制 `SKILL.md`，也不要多套一层仓库目录。如果已有同名版本，先比较并保留自己的修改。
+Windows 上 `~` 指你的用户目录。复制后，目标目录直接包含 `SKILL.md`、`agents/`、`references/` 和 `assets/`。如果已有同名版本，先比较并保留自己的修改。
 
 安装位置和 Skill Installer 的官方说明：[OpenAI：Build skills](https://learn.chatgpt.com/docs/build-skills)。
 
@@ -138,6 +145,13 @@ Windows 上 `~` 指你的用户目录。复制后，目标目录应直接包含 
 制作面向课题组的 15 分钟汇报。讲清问题、实际做法和结果，
 保留原生文字、图表和逐页动态，输出到项目的 output/组会汇报.pptx。
 完成制作核对后直接交给我自行检查。
+```
+
+**先看逐页知识树**
+
+```text
+使用 $laochen-technical-ppt，把旧稿作为资料，给首次接触该方法的学生梳理逐页知识树。
+传统参照简讲，重点讲核心方法的原理和作用。按一级主题、二级知识点和每页任务画出分支，这轮交树即可。
 ```
 
 **保留已有动画的局部修订**
@@ -179,15 +193,19 @@ laochen-technical-ppt/
 ├── skills/laochen-technical-ppt/
 │   ├── SKILL.md                      # Skill 主规则
 │   ├── agents/openai.yaml            # 界面元数据
+│   ├── assets/                       # 自制教学材料、可编辑讲义与案例
 │   └── references/
 │       ├── asset-sources.md          # 素材获取与复用规则
 │       ├── source-catalog.md         # 按需读取的来源目录
+│       ├── template-selection.md     # 已有模板与新稿选型
 │       ├── layout-and-style.md       # 内容关系与稿内视觉参数
+│       ├── method-talks.md           # 学术方法专题与逐页知识树
 │       ├── visual-cases.md           # 内容交接、历史对比与修正版案例
 │       ├── paired-evaluation.md      # Skill 修订验证
 │       ├── collaboration.md          # 按需协作与单稿写入
 │       ├── implementation-and-checks.md
 │       ├── research-explanation.md   # 讲解逻辑与中文成稿
+│       ├── research-and-revision-examples.md
 │       └── worked-examples.md        # 任务边界与制作示例
 ├── LICENSE
 └── README.md

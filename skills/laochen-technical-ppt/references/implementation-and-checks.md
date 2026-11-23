@@ -8,17 +8,18 @@ Follow [task scope](../SKILL.md#task-scope): review reports without editing; aut
 
 ## Minimum production confirmation
 
-Inspect the saved authoritative output, using saved-object/package inspection plus the relevant renderer/runtime. Apply only the affected rows:
+从已保存的权威文件检查对象、包关系和实际渲染或播放效果。按受影响部分选用下表。
 
-| Affected part | Confirm during production |
+| 检查对象 | 从保存结果确认的内容 |
 | --- | --- |
-| Saved output and page structure | Save succeeded without exporter/package errors. Resolve the presentation page list and relationships for count, order and referenced parts; counting `slide*.xml` files does not establish order. |
-| Substantive explanation | Read the saved page's body copy first: can it explain the page's actual work, operation, relationship or judgment? Then identify how its figures support that account. Names, legends, colors, repeated readings or generic caveat lists alone do not pass. Result pages connect observations, comparison basis and supported judgment; trace claims to their source object, conditions and metric across pages. Intermediate improvement is not the task outcome. For full production, compare A's content draft and page purpose with the saved page; for local edits, compare the authorized request and existing copy/baseline without requiring a new A handoff. Necessary reasoning, definitions, formulas, parameters and conditions must remain visible and readable, not reduced to labels or moved only to notes. Figures may hold detailed data/structure; prose need not duplicate every value. Keep material limits beside the relevant claim; remove repetitive defensive statements and show concrete work or planned actions. Repair within scope using [body copy and figures](research-explanation.md#figure-and-adjacent-explanation), not word or area quotas. |
-| Native content and chart data | Text, tables, labels, units and objects retain promised editing granularity. Changed charts keep series/categories, data references, cached values and embedded workbooks consistent with supplied data, required formulas and source lineage. |
-| Consumed assets and fonts | Images/media and required sources are embedded or resolve from saved locations. Confirm actual fonts and delivery dependencies; no silent substitution or temporary-URL-only asset. |
-| Layout and visible content | Render changed pages from the saved deck at the intended viewing size; inspect font/fit, clipping, overlap, labels and figure legibility. |
-| Titles and auxiliary text | Read each affected title and its next visible line, including covers/closing pages. The title names the topic, operation, answered question or supported finding; learning advice/presenter sequencing belongs in notes. The next line must add necessary information: place inputs, conditions, units and example identity by their objects; remove routine audience/process labels and repetition. Preserve substantive opening/body paragraphs, meaningful user copy and necessary page-wide conditions; removing routine subtitles must not remove the explanation. Apply [information-placement rules](research-explanation.md#audience-facing-qualifications-and-small-text), not punctuation/word blacklists. |
-| Animation and interaction | Reconcile planned stages with saved target identities, triggers/order, coverage and intentional duplicates. Play affected sequences in the intended application or compatible runtime; inspect entry, intermediate legibility/order and stable final state. New/remade live decks cover every slide; local work covers affected objects/effect dependencies. `p:timing` or effect counts prove neither coverage nor playback quality. |
+| 保存结果与页序 | 确认导出或保存成功，从演示文稿页序及部件关系列表核实页数、顺序与引用。仅统计 `slide*.xml` 文件无法得到页序。 |
+| 导读与详页 | 从受影响的章节导读连续读到详页及最终输出。各页所属阶段清楚，中间产物接得上，标定、训练、并行参照与实际运行的关系准确。调整结构后检查直接依赖的页码、备注和文献指引。简短独立页按自身任务检查。 |
+| 正文与图证 | 用可见正文复述这页的做法、原理或有据判断，再从关键句指到图中的数据区间、部件或连接。数据页读得出比较条件、差异与适用判断。方法页讲得清操作改变的对象与作用。必要定义、公式和条件投影可读，单纯的图名、读数或提醒仍需补足。完整制作对照 A 的内容稿，局部修改对照获准范围及原稿。按[正文与配图](research-explanation.md#figure-and-adjacent-explanation)局部修复。 |
+| 可编辑对象与图表数据 | 文字、表格、标签、单位和对象满足约定的编辑操作。改过的图表核实系列、分类、数据引用、缓存和嵌入工作簿与原数据及计算公式相符。 |
+| 素材与字体 | 已用的图片、媒体及必需源文件已嵌入或能从交付位置读取。核实实际字体和依赖，排除意外替换及临时链接失效。 |
+| 版式与可读性 | 从保存稿按预期观看尺寸渲染受影响页，查看字号、换行、裁切、重叠、标注和图中细节。 |
+| 标题与全页辅助文字 | 看实际渲染，从标题和下一行读到图边、图下、侧栏及页脚，含模板继承或图片内可见文字。标题点明对象、操作、问题或发现。删除重复的制作说明，把详细来源移入备注。图旁保留轴、单位、比较口径、必要署名和会改变判断的资料身份。对照[信息放置规则](research-explanation.md#audience-facing-qualifications-and-small-text)，保护有实质的首段和用户保留项。 |
+| 动画与交互 | 核对保存的目标对象、触发方式、顺序、覆盖范围及有意重复的强调，在目标应用或兼容运行环境中播放受影响序列，查看入场、中间状态的可读性及稳定终态。新建和整体重做讲演稿覆盖每页，局部修改核对受影响对象和效果依赖。仅有 `p:timing` 或效果计数无法验证播放效果。 |
 
 ### Check status and exceptions
 
@@ -79,6 +80,7 @@ Version-specific examples: [PptxGenJS fit notes](https://github.com/gitbrent/Ppt
 - Encode categories, ordered magnitude, reference-centered deviations or emphasis appropriately. Keep identities consistent across slides and respect field conventions; retain needed colorbars/references. Use direct labels for a few series, legends for dense/shared encodings, and place conditions near evidence without masking it.
 - Define uncertainty marks (SD, SE, specified confidence/credible interval or source-defined measure), sample size and repetition unit where relevant; do not invent intervals or exchange definitions.
 - Inspect paper-figure labels at intended size. If unreadable, enlarge relevant panels, pair overview/detail or redraw from available source data; retain controls, axes, units, color scales and qualifications. Do not infer numbers from a picture merely to produce an editable chart.
+- 对主要解释图做一次双向核对。从正文能找到具体区间、样点、部件或中间状态，从该处能读出正文声称的关系。需要比较时保留共同基准和局部标记。硬件图可用同号对应功能解释，简单关系直接标名。按投影尺寸观察标签、关键细节和引线，有遮挡时调整局部构图。
 - For simulation views, adjust background, view, legend and unnecessary UI while preserving variable, units, scale/colors, case identity and relevant geometry. Mesh visibility follows its evidential role, including discretization/contact/reliability. Align comparative views/scales/crops without changing results.
 
 References: [Wilke on color scales](https://clauswilke.com/dataviz/color-basics.html), [time-series labels](https://clauswilke.com/dataviz/time-series.html), and [uncertainty](https://clauswilke.com/dataviz/visualizing-uncertainty.html). [Nature figure guidance](https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/) concerns publication figures; do not import its print-size typography as a slide font prescription.
