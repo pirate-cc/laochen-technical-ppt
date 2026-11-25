@@ -1,19 +1,25 @@
 # 老陈技术汇报 PPT
 
-面向中文学术报告、教学、产品介绍、操作培训和文化叙事。可先交逐页知识树或上屏文案，也可沿用模板制作可编辑 PowerPoint。方法专题按听众要理解的问题安排详略，正文讲清机制或判断，读者可以在图中找到依据。新建或整体重做的讲演稿逐页编排原生动画。
+面向中文学术报告、教学、产品介绍、操作培训和文化叙事。可先交逐页知识树或上屏文案，也可沿用模板制作可编辑 PowerPoint。围绕听众要弄明白的问题安排页序和详略，从图中找出真正影响判断的差异，用自然的中文讲透其中的关系。新建或整体重做的讲演稿逐页编排原生动画。
 
-**当前版本 0.1.28 · 作者 老陈 · [MIT License](LICENSE)**
+**当前版本 0.1.29 · 作者 老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, with complete body copy supported by figures, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
 ## 能做什么
 
-- **新建或整体重做：** 从场景和观众目标安排讲解，读透原材料后先写完整正文，再配图支持并安排原生动态；讲演稿默认每页都有服务内容的对象动画。
+- **新建或整体重做**。从整场目标安排各页，结合原始材料写出关键解释和依据，再确定投影构图与原生动态。讲演稿逐页编排服务内容的对象动画。
 - **局部修改：** 只修改指定页面、对象及必要依赖，保留无关内容、格式与动画。
 - **审阅、解释或诊断：** 默认只检查和报告；用户明确授权后才修改文件。
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.29 从图中证据到判断，让讲解逐页推进
+
+- 写正文时把关键差异放回听众正在考虑的问题，分别核对图、记录或公式各能说明什么。[风机结果页](skills/laochen-technical-ppt/references/visual-cases.md#window-result-and-tradeoff)用相同教学数据示范怎样讲出偏差与更新时间的取舍。
+- 把相邻几页连起来讲，再展开完整正文。用[平场校正的连续三页](skills/laochen-technical-ppt/references/method-talks.md#connect-an-overview-to-its-detail-slides)示范怎样从读数差异引出参考光，又回到新帧上的两个位置。
+- [中文改写](skills/laochen-technical-ppt/references/worked-examples.md#natural-chinese)增加段落示例，[制作核对](skills/laochen-technical-ppt/references/implementation-and-checks.md#minimum-production-confirmation)检查关键证据和真实转折，[修订比较](skills/laochen-technical-ppt/references/paired-evaluation.md#skill-revision-checks)要求从匿名成稿指出改善与仍拗口的原句。
 
 ## 0.1.28 学术方法专题与跨页讲解
 
