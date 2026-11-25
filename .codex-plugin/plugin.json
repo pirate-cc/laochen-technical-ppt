@@ -1,18 +1,18 @@
 {
   "name": "laochen-technical-ppt",
-  "version": "0.1.29",
-  "description": "Plan, write, revise and review Chinese presentations from a knowledge tree to an editable PowerPoint deck. Build a coherent talk, explain what each figure supports, and write natural Chinese slide copy. New or wholly remade live talks include native animation on every slide.",
+  "version": "0.1.30",
+  "description": "Plan, write, revise and review Chinese presentations, from a knowledge tree to an editable PowerPoint deck. Use concise slide titles of up to seven characters. Explain what a figure shows, the conclusion it supports, and how that conclusion is used. New or wholly remade live talks include native animation on every slide.",
   "author": {
     "name": "老陈"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "老陈技术汇报PPT",
-    "shortDescription": "沿主线组织讲解，用图中证据写出自然的中文 PPT。",
-    "longDescription": "按用途交付逐页知识树、上屏文案、局部修订或整套 PPT。围绕听众最终要弄明白的问题安排详略，把图中的差异和方法的作用讲成有依据的判断。章节转换交代为何要追问下一件事，连续页读来顺畅。完整制作由内容与制作子代理协作，沿用指定模板，保留原生编辑和讲演稿逐页原生动画，并按受影响范围核对保存结果。",
+    "shortDescription": "七字内概括页题，讲清图中现象、判断和实际作用。",
+    "longDescription": "按用途交付逐页知识树、上屏文案、局部修订或整套 PPT。自拟上屏标题不超过七个字。正文结合图中证据，说清现象、判断和实际作用。各章围绕听众的问题推进，决策稿开场交代处置，末页排查写清怎样区分原因。完整制作保留原生编辑和逐页讲演动画。",
     "developerName": "老陈",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "请使用老陈技术汇报 PPT，按我的材料和交付要求组织整场主线，用自然的中文讲清图中证据支持什么判断，以及为什么接着讲下一页。"
+    "defaultPrompt": "请使用老陈技术汇报 PPT，按我的材料和交付要求组织主线，自拟短标题，讲清图中现象能得出什么判断、对当前问题有什么用。"
   }
 }

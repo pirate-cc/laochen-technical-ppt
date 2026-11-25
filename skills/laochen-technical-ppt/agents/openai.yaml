@@ -1,4 +1,4 @@
 interface:
   display_name: "老陈技术汇报PPT"
-  short_description: "梳理整场主线，用自然中文讲清图中证据，制作可编辑的讲演 PPT"
-  default_prompt: "请使用 $laochen-technical-ppt，结合听众、原材料和我指定的交付形式，组织接得起来的逐页讲解，把图中的差异写成有依据的判断。"
+  short_description: "七字内概括标题，把图中现象、判断和实际作用讲成自然的中文"
+  default_prompt: "请使用 $laochen-technical-ppt，按我的交付要求工作。自拟页题不超过七字，用正文讲清图中现象支持什么判断、对当前问题有何用处，并把各章连成一场完整的讲解。"

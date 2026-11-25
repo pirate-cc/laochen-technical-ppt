@@ -2,7 +2,7 @@
 
 面向中文学术报告、教学、产品介绍、操作培训和文化叙事。可先交逐页知识树或上屏文案，也可沿用模板制作可编辑 PowerPoint。围绕听众要弄明白的问题安排页序和详略，从图中找出真正影响判断的差异，用自然的中文讲透其中的关系。新建或整体重做的讲演稿逐页编排原生动画。
 
-**当前版本 0.1.29 · 作者 老陈 · [MIT License](LICENSE)**
+**当前版本 0.1.30 · 作者 老陈 · [MIT License](LICENSE)**
 
 English: A reusable Chinese presentation skill for Codex, with complete body copy supported by figures, scene-based template selection and sourcing, natural copy, template preservation or coherent original design, editable objects, and native slide animation.
 
@@ -14,6 +14,13 @@ English: A reusable Chinese presentation skill for Codex, with complete body cop
 - **文案、提纲或素材：** 只交付所需内容；静态、打印或阅读稿按相应用途处理。
 
 完整规则见 [SKILL.md](skills/laochen-technical-ppt/SKILL.md)，具体写法与协作示例见 [worked-examples.md](skills/laochen-technical-ppt/references/worked-examples.md)。
+
+## 0.1.30 七字标题与图文讲解
+
+- 决策汇报开场交代各对象的处置和范围。多章节报告沿前一章得到的认识往下讲，最后回到开场要解决的问题。[整场组织](skills/laochen-technical-ppt/references/research-explanation.md#choose-the-explanation-from-the-scene)
+- 自拟页题和章名不超过七个非空白字符，完整判断写进可见正文。图文顺着“图中看见什么、据此明白什么、对当前问题有什么用”展开，机制页说明具体哪一步因此改变。删去报完数便结束、例行强调“仍需验证”的句子。[七字标题示例](skills/laochen-technical-ppt/references/worked-examples.md#titles-from-page-content) · [图文前后对照](skills/laochen-technical-ppt/references/worked-examples.md#explain-what-a-figure-changes)
+- 排查方案写明要取哪些记录、凭什么区分可能原因。[开场与末页示例](skills/laochen-technical-ppt/references/worked-examples.md#decision-briefing-and-diagnostic-handoff)
+- [长篇比较](skills/laochen-technical-ppt/references/paired-evaluation.md#skill-revision-checks)在匿名成稿上检查开场、章间承接和末页的可执行性。
 
 ## 0.1.29 从图中证据到判断，让讲解逐页推进
 
